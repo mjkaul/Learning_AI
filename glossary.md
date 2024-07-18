@@ -1,2 +1,2 @@
-# Learning_AI - Glossary
+# Glossary
 
