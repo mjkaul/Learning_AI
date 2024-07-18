@@ -27,3 +27,11 @@ Note that GPT tokenizers don’t use <unk> tokens for words outside the model’
 	- A 2d matrix is a tensor of rank 2. 
 Tensors are multi-dimensional data containers, with each dimension representing a different feature.
 
+- **autograd** - “provides functions to automatically compute gradients in dynamic computational graphs“
+- **computational graph** - “a directed graph that allows us to express and visualize mathematical expressions … lays out the sequence of calculations needed to compute the output of a neural netowrk.” e.g. computes the required gradients for backpropagation, the main training algorithm for neural networks. Per ChatGPT: “Computation graphs are like roadmaps that show how calculations flow from inputs to outputs in a model. The computation graph visually represents the flow of calculations in a machine learning model, including the forward pass in logistic regression.”
+- **logistic regression forward pass** - Per ChatGPT: “Logistic regression is a type of algorithm used for binary classification, which means it predicts one of two outcomes (like yes/no, true/false). The goal is to find a line (or boundary) that separates the two classes based on the input data.” Logical regression algorithms have four elements:
+	- inputs / features: the elements of data you have
+	- weights / parameters: how important each feature is
+	- bias / intercept: a baseline prediction that the model starts with
+	- prediction: multiply the feature * weight, add the bias, then apply a **sigmoid function**, which gives you a probability score between 0 and 1.
+- **sigmoid function** - a function (built into PyTorch, in this case) that allows you to compute the probability of a given output
