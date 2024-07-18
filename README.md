@@ -10,7 +10,7 @@ Working in the healthcare industry, though, standard LLMs simply aren't going to
 
 Hence my interest in the combination of LLMs and knowledge graphs, or what Microsoft and others are calling "GraphRAG." 
 
-I'm not a great coder; mostly just a technical writer. But I'll be sharing code snippets here from the various mostly Python-based AI/ML projects I'm working on. I try to annotate my code carefully to make sure I know what's happening where. 
+I'm not a great coder; mostly just a technical writer starting from more or less nothing beyond some beginner-level Python & JS. I'll share my code snippets here from the various mostly Python-based AI/ML projects I'm working on—but be warned, things are gonna get messy. I do try to annotate my code carefully to make sure I know what's happening where. 
 
 I'll also create a general glossary for all the terms I'm learning, and different collections of posts for the different books and projects I work through. 
 
