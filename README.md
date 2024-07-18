@@ -12,7 +12,7 @@ Hence my interest in the combination of LLMs and knowledge graphs, or what Micro
 
 I'm not a great coder; mostly just a technical writer starting from more or less nothing beyond some beginner-level Python & JS. I'll share my code snippets here from the various mostly Python-based AI/ML projects I'm working on—but be warned, things are gonna get messy. I do try to annotate my code carefully to make sure I know what's happening where. 
 
-I'll also create a [general glossary](/glossary.md) for all the terms I'm learning, and different collections of posts for the different books and projects I work through. 
+I'll also create a [general glossary](/glossary.md) for all the terms I'm learning, and different collections of posts for the different books and projects I work through, each of which will be documented in the [bibliography](/bibliography.md).
 
 I'd be very happy to hear your thoughts about what I'm up to, as well as your corrections & suggestions. Thanks in advance!
 
