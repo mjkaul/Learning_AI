@@ -13,7 +13,7 @@ Obviously don't feel compelled to buy the books or pay for courses. Find free al
 ### Intermediate ###
 
 - 3blue1brown [video course on neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) - long explainer videos.
-- [Andrej Karpathy's Githubt](https://github.com/karpathy) - he's doing tons of projects that you can follow along with, particularly [Eureka Labs](https://eurekalabs.ai/), which is going to be some sort of course about AI "taught" with the assistance of AI tutors
+- [Andrej Karpathy's Github repos](https://github.com/karpathy) - he's doing tons of projects that you can follow along with, particularly [Eureka Labs](https://eurekalabs.ai/), which is going to be some sort of course about AI "taught" with the assistance of AI tutors.
 - Raschka, [*Building a Large Language Model (from Scratch)*](https://www.manning.com/books/build-a-large-language-model-from-scratch) - I'm working through this one already; it's great so far.
 - [Stephen Wolfram's essay on how LLMs work](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) - dense but incredibly thorough.
 
