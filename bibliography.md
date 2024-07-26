@@ -23,3 +23,7 @@ Obviously don't feel compelled to buy the books or pay for courses. Find free al
 - [Andrej Karpathy's vide series "Neural Networks: Zero to Hero"](https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&si=9DqrnYQ1VXDjLWgo)
 - [fast.ai](https://www.fast.ai/)
 - [GPT learning hub](https://www.gptlearninghub.ai/codingproblems)
+- Yuan & Yuan, *Open Source LLMs (Manning 3 Projects)*
+- Stephens, *AI Algorithms (Manning 4 Projects)*
+- Maiden, *Neo4j (Manning 3 Projects)*
+- Elgueta, *LangChain (Manning 3 Projects)*

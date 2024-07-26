@@ -7,13 +7,13 @@ Do these steps on your own. Once you've done them, come back here for the rest o
 2. Learn [how to use github](https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/) & the pull/commit/branch model.
 3. Learn the [basic concepts.](/basiconcepts.md)
 
-## Building reliable AI
+## Building reliable, verifiable AI chatbots
 
 1. *[in progress]* [Train & deploy an LLM.](/simpleLLM.md) Then test it and find its weaknesses.
 2. Train your first RAG-based LLM & deploy it; then find its weaknesses.
 3. Build a knowledge graph w/Neo4j or Protege.
-4. Train your graphrag llm & deploy it, then find its weaknesses.
-5. Learn about AI Ops: testing, maintaining, & updating the tools you've built.
+4. Train your first KG+RAG LLM & deploy it, then find its weaknesses.
+5. Learn about AI ops: testing, maintaining, & updating the tools you've built.
 
 ## Someday/maybe ##
 
