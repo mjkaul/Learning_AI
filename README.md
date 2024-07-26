@@ -14,8 +14,10 @@ Hence my interest in the combination of LLMs and knowledge graphs, or what Micro
 
 I'm not a great coder; mostly just a technical writer starting from some beginner-level Python & JS. I'll share my code snippets here from the various mostly Python-based AI/ML projects I'm working on—but be warned, things are gonna get messy. I do try to annotate my code carefully to make sure I know what's happening where. I also type out all code snippets myself when working through books, rather than copying & pasting—if you're following along at home, I encourage you do to this too, along with annotating as you go. These practices, recommended by [Zed Shaw](https://learncodethehardway.com/), have helped me greatly in learning what little I know.
 
-To join in the fun, see what I'm currently up to, and get some sense of where I'm heading next, check out the [roadmap](/roadmap.md).
+To join in the fun, see what I'm currently up to, and get some sense of where I'm heading next, **check out the [roadmap**](/roadmap.md).
 
 I'm creating a [general glossary](/glossary.md) for all the concepts I'm learning, and different collections of posts for the different books and projects I work through, each of which will be documented in the [bibliography](/bibliography.md).
 
 I'd be very happy to hear your thoughts about what I'm up to, as well as your corrections & suggestions. Thanks in advance!
+
+[**START HERE**](/roadmap.md)
