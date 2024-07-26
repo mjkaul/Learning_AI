@@ -7,7 +7,7 @@ Obviously don't feel compelled to buy the books or pay for courses. Find free al
 ### Beginner - start here ### 
 
 - [Andrej Karpathy's vide "Intro to Large Language Models"](https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqRStI&index=1)
-- [Deeplearning.ai](https://www.deeplearning.ai/) - a range of courses from beginner through advanced
+- [Deeplearning.ai](https://www.deeplearning.ai/) - a range of courses from beginner through advanced. 
 - Wooldridge, [*A Brief History of Artificial Intelligence*](https://www.goodreads.com/book/show/53359507-a-brief-history-of-artificial-intelligence) - great intro to the history and the basic concepts. Well written & readable. Worthwhile even if you aren't going to do the coding.
 
 ### Intermediate ###
