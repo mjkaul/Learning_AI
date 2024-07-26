@@ -18,12 +18,11 @@ A suggestion for an effective 11-step LLM summer study plan:
 10. Check out LitGPT to see how multi-GPU training is implemented and how different LLM architectures compare (https://lnkd.in/gzYc69c7).
 11. Build something cool and share it with the world.
 
-(Read = read, run the code, and attempt the exercises 😊)
+(*"Read" = read, run the code, and attempt the exercises 😊)
 
 ## Objectives
 
 
 
 ## Concepts
-
 
