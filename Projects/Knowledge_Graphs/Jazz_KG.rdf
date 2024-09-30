@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2/"
+     xml:base="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#composed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#composed">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Tune"/>
+        <rdfs:comment>Person composed Tune</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#hasTitle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#hasTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#leads -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#leads">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Group"/>
+        <rdfs:comment>Person leads Group
+Person leads Album</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#partOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#partOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Group"/>
+        <rdfs:comment>Person partOf Group</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#plays -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#plays">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Instrument"/>
+        <rdfs:comment>Person plays Instrument</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#playsOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#playsOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Tune"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#playsWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#playsWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Group"/>
+        <rdfs:comment>Person playsWith Group</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#produced -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#produced">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#recordedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#recordedOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Tune"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <rdfs:comment>Tune recordedOn Album</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#releasedOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#releasedOn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Label"/>
+        <rdfs:comment>Album releasedOn Label</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Group"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#bornIn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#bornIn">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#name">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Group"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Label"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Tune"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Person / Album / Label / Tune / Group is [name]d Name</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#released -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#released">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#title">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Tune"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Group"/>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Instrument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Instrument"/>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Label -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Label"/>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Tune -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Tune"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Fuchsia_Swing_Song -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Fuchsia_Swing_Song">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <untitled-ontology-2:name>Fuchsia Swing Song</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#GiantSteps -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#GiantSteps">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <untitled-ontology-2:name>Giant Steps</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#KindofBlue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#KindofBlue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <untitled-ontology-2:name>Kind of Blue</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#TimeOut -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#TimeOut">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <untitled-ontology-2:name>Time Out</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#alto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#alto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Instrument"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#bass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#bass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Instrument"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#drums -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#drums">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Instrument"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#piano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#piano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Instrument"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#soprano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#soprano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Instrument"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#tenor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#tenor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Instrument"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#trumpet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#trumpet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Instrument"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Art_Blakey&apos;s_Jazz_Messengers_with_Thelonious_Monk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Art_Blakey&apos;s_Jazz_Messengers_with_Thelonious_Monk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <untitled-ontology-2:name>Art Blakey&apos;s Jazz Messengers with Thelonious Monk</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Moanin&apos; -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Moanin&apos;">
+        <rdf:type rdf:resource="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album"/>
+        <untitled-ontology-2:name>Moanin&apos;</untitled-ontology-2:name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,230 @@
+@prefix : <http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2/> .
+
+<http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#composed
+:composed rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Person ;
+          rdfs:range :Tune ;
+          rdfs:comment "Person composed Tune" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#hasTitle
+:hasTitle rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#leads
+:leads rdf:type owl:ObjectProperty ;
+       rdfs:domain :Person ;
+       rdfs:range :Album ,
+                  :Group ;
+       rdfs:comment """Person leads Group
+Person leads Album""" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#partOf
+:partOf rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty ;
+        rdfs:domain :Person ;
+        rdfs:range :Group ;
+        rdfs:comment "Person partOf Group" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#plays
+:plays rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf owl:topObjectProperty ;
+       rdfs:domain :Person ;
+       rdfs:range :Instrument ;
+       rdfs:comment "Person plays Instrument" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#playsOn
+:playsOn rdf:type owl:ObjectProperty ;
+         rdfs:domain :Person ;
+         rdfs:range :Album ,
+                    :Tune .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#playsWith
+:playsWith rdf:type owl:ObjectProperty ;
+           rdfs:domain :Person ;
+           rdfs:range :Group ;
+           rdfs:comment "Person playsWith Group" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#produced
+:produced rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Person ;
+          rdfs:range :Album .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#recordedOn
+:recordedOn rdf:type owl:ObjectProperty ;
+            rdfs:domain :Tune ;
+            rdfs:range :Album ;
+            rdfs:comment "Tune recordedOn Album" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#releasedOn
+:releasedOn rdf:type owl:ObjectProperty ;
+            rdfs:domain :Album ;
+            rdfs:range :Label ;
+            rdfs:comment "Album releasedOn Label" .
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty rdfs:domain :Person ;
+                      rdfs:range :Group .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#bornIn
+:bornIn rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Person ;
+        rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Album ,
+                  :Group ,
+                  :Label ,
+                  :Person ,
+                  :Tune ;
+      rdfs:range xsd:string ;
+      rdfs:comment "Person / Album / Label / Tune / Group is [name]d Name" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#released
+:released rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Album ;
+          rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#title
+:title rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Album ,
+                   :Tune ;
+       rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Album
+:Album rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Group
+:Group rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Instrument
+:Instrument rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Label
+:Label rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Person
+:Person rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Tune
+:Tune rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Fuchsia_Swing_Song
+:Fuchsia_Swing_Song rdf:type owl:NamedIndividual ,
+                             :Album ;
+                    :name "Fuchsia Swing Song" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#GiantSteps
+:GiantSteps rdf:type owl:NamedIndividual ,
+                     :Album ;
+            :name "Giant Steps" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#KindofBlue
+:KindofBlue rdf:type owl:NamedIndividual ,
+                     :Album ;
+            :name "Kind of Blue" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#TimeOut
+:TimeOut rdf:type owl:NamedIndividual ,
+                  :Album ;
+         :name "Time Out" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#alto
+:alto rdf:type owl:NamedIndividual ,
+               :Instrument .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#bass
+:bass rdf:type owl:NamedIndividual ,
+               :Instrument .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#drums
+:drums rdf:type owl:NamedIndividual ,
+                :Instrument .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#piano
+:piano rdf:type owl:NamedIndividual ,
+                :Instrument .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#soprano
+:soprano rdf:type owl:NamedIndividual ,
+                  :Instrument .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#tenor
+:tenor rdf:type owl:NamedIndividual ,
+                :Instrument .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#trumpet
+:trumpet rdf:type owl:NamedIndividual ,
+                  :Instrument .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Art_Blakey's_Jazz_Messengers_with_Thelonious_Monk
+<http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Art_Blakey's_Jazz_Messengers_with_Thelonious_Monk> rdf:type owl:NamedIndividual ,
+                                                                                                                                          :Album ;
+                                                                                                                                 :name "Art Blakey's Jazz Messengers with Thelonious Monk" .
+
+
+###  http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Moanin'
+<http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2#Moanin'> rdf:type owl:NamedIndividual ,
+                                                                                                :Album ;
+                                                                                       :name "Moanin'" .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

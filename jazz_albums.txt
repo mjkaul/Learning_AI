@@ -1,0 +1,190 @@
+CREATE CONSTRAINT album_title IF NOT EXISTS FOR (a:album) REQUIRE a.title IS UNIQUE;
+CREATE CONSTRAINT person_name IF NOT EXISTS FOR (p:Person) REQUIRE p.name IS UNIQUE;
+
+MERGE (KindofBlue:album {title:'Kind of Blue'}) ON CREATE SET KindofBlue.released=1959, KindofBlue.label='Columbia', KindofBlue.leader='Miles Davis'
+
+MERGE (MilesDavis:Person {name:'Miles Davis'}) ON CREATE SET MilesDavis.born=1926, MilesDavis.instrument=trumpet
+MERGE (JohnColtrane:Person {name:'John Coltrane'}) ON CREATE SET JohnColtrane.born=1926, JohnColtrane.instrument=tenor
+MERGE (CannonballAdderley:Person {name:'Julian "Cannonball" Adderley'}) ON CREATE SET CannonballAdderley.born=1928, CannonballAdderley.instrument=alto
+MERGE (BillEvans:Person {name:'Bill Evans'}) ON CREATE SET BillEvans.born=1929, BillEvans.instrument=piano
+MERGE (PaulChambers:Person {name:'Paul Chambers'}) ON CREATE SET PaulChambers.born=1935, PaulChambers.instrument=bass
+MERGE (JimmyCobb:Person {name:'Jimmy Cobb'}) ON CREATE SET JimmyCobb.born=1929, JimmyCobb.instrument=drums
+MERGE (WyntonKelly:Person {name:'Wynton Kelly'}) ON CREATE SET WyntonKelly.born=1931, WyntonKelly.instrument=piano
+MERGE (IrvingTownsend:Person {name:'Irving Townsend'}) ON CREATE SET IrvingTownsend.born=1920
+
+MERGE (SoWhat:Tune {name:'So What'}) ON CREATE SET SoWhat.album=KindofBlue
+MERGE (FreddieFreeloader:Tune {name:'Freddie Freeloader'}) ON CREATE SET FreddieFreeloader.album=KindofBlue
+MERGE (BlueinGreen:Tune {name:'Blue in Green'}) ON CREATE SET BlueinGreen.album=KindofBlue
+MERGE (AllBlues:Tune {name:'All Blues'}) ON CREATE SET AllBlues.album=KindofBlue
+MERGE (FlamencoSketches:Tune {name:'Flamenco Sketches'}) ON CREATE SET FlamencoSketches.album=KindofBlue
+
+MERGE (MilesDavis)-[:PLAYED_ON]->(KindofBlue)
+MERGE (JohnColtrane)-[:PLAYED_ON]->(KindofBlue)
+MERGE (CannonballAdderley)-[:PLAYED_ON]->(KindofBlue)
+MERGE (BillEvans)-[:PLAYED_ON]->(KindofBlue)
+MERGE (PaulChambers)-[:PLAYED_ON]->(KindofBlue)
+MERGE (JimmyCobb)-[:PLAYED_ON]->(KindofBlue)
+MERGE (WyntonKelly)-[:PLAYED_ON]->(KindofBlue)
+MERGE (IrvingTownsend)-[:PRODUCED]->(KindofBlue)
+
+MERGE (MilesDavis)-[:COMPOSED]->(SoWhat)
+MERGE (MilesDavis)-[:COMPOSED]->(FreddieFreeloader)
+MERGE (MilesDavis)-[:COMPOSED]->(BlueinGreen)
+MERGE (BillEvans)-[:COMPOSED]->(BlueinGreen)
+MERGE (MilesDavis)-[:COMPOSED]->(AllBlues)
+MERGE (MilesDavis)-[:COMPOSED]->(FlamencoSketches)
+MERGE (BillEvans)-[:COMPOSED]->(FlamencoSketches)
+
+
+MERGE (TimeOut:album {title:'Time Out'}) ON CREATE SET TimeOut.released=1959, TimeOut.label='Columbia', TimeOut.group='Dave Brubeck Quartet', TimeOut.leader='Dave Brubeck'
+
+MERGE (DaveBrubeck:Person {name:'Dave Brubeck'}) ON CREATE SET DaveBrubeck.born=1920, DaveBrubeck.instrument=piano
+MERGE (PaulDesmond:Person {name:'Paul Desmond'}) ON CREATE SET PaulDesmond.born=1924, PaulDesmond.instrument=alto
+MERGE (EugeneWright:Person {name:'Eugene Wright'}) ON CREATE SET EugeneWright.born=1923, EugeneWright.instrument=bass
+MERGE (JoeMorello:Person {name:'Joe Morello'}) ON CREATE SET JoeMorello.born=1928, JoeMorello.instrument=drums
+MERGE (TeoMacero:Person {name:'Irving Townsend'}) ON CREATE SET IrvingTownsend.born=1925
+
+MERGE (BlueRondo:Tune {name:'Blue Rondo à la Turk'}) ON CREATE SET BlueRondo.album=TimeOut
+MERGE (StrangeMeadowLark:Tune {name:'Strange Meadow Lark'}) ON CREATE SET StrangeMeadowLark.album=TimeOut
+MERGE (TakeFive:Tune {name:'Take Five'}) ON CREATE SET TakeFive.album=TimeOut
+MERGE (ThreetoGetReady:Tune {name:'Three to Get Ready'}) ON CREATE SET ThreetoGetReady.album=TimeOut
+MERGE (KathysWaltz:Tune {name:'Kathy\'s Waltz'}) ON CREATE SET KathysWaltz.album=TimeOut
+MERGE (EverybodysJumping:Tune {name:'Everybody\'s Jumping'}) ON CREATE SET EverybodysJumping.album=TimeOut
+MERGE (PickUpSticks:Tune {name:'Pick Up Sticks'}) ON CREATE SET PickUpSticks.album=TimeOut
+
+MERGE (DaveBrubeck)-[:PLAYED_ON]->(TimeOut)
+MERGE (PaulDesmond)-[:PLAYED_ON]->(TimeOut)
+MERGE (EugeneWright)-[:PLAYED_ON]->(TimeOut)
+MERGE (JoeMorello)-[:PLAYED_ON]->(TimeOut)
+MERGE (TeoMacero)-[:PRODUCED]->(TimeOut)
+
+MERGE (DaveBrubeck)-[:COMPOSED]->(BlueRondo)
+MERGE (DaveBrubeck)-[:COMPOSED]->(StrangeMeadowLark)
+MERGE (PaulDesmond)-[:COMPOSED]->(TakeFive)
+MERGE (DaveBrubeck)-[:COMPOSED]->(ThreetoGetReady)
+MERGE (DaveBrubeck)-[:COMPOSED]->(KathysWaltz)
+MERGE (DaveBrubeck)-[:COMPOSED]->(EverybodysJumping)
+MERGE (DaveBrubeck)-[:COMPOSED]->(PickUpSticks)
+
+MERGE (GiantSteps:album {title:'Giant Steps'}) ON CREATE SET GiantSteps.released=1960, GiantSteps.label='Atlantic', TimeOut.leader='John Coltrane'
+
+MERGE (CedarWalton:Person {name:'Cedar Walton'}) ON CREATE SET CedarWalton.born=1934, CedarWalton.instrument=piano
+MERGE (LexHumphries:Person {name:'Lex Humphries'}) ON CREATE SET LexHumphries.born=1936, LexHumphries.instrument=drums
+MERGE (TommyFlanagan:Person {name:'Tommy Flanagan'}) ON CREATE SET TommyFlanagan.born=1930, TommyFlanagan.instrument=piano
+MERGE (ArtTaylor:Person {name:'Art Taylor'}) ON CREATE SET ArtTaylor.born=1929, ArtTaylor.instrument=drums
+MERGE (NesuhiErtegun:Person {name:'Nesuhi Ertegun'}) ON CREATE SET NesuhiErtegun.born=1917
+
+MERGE (GiantStepsTune:Tune {name:'Giant Steps'}) ON CREATE SET GiantStepsTune.album=GiantSteps
+MERGE (CousinMary:Tune {name:'Cousin Mary'}) ON CREATE SET CousinMary.album=GiantSteps
+MERGE (Countdown:Tune {name:'Countdown'}) ON CREATE SET Countdown.album=GiantSteps
+MERGE (Spiral:Tune {name:'Spiral'}) ON CREATE SET Spiral.album=GiantSteps
+MERGE (SyeedasSongFlute:Tune {name:'Syeeda\'s Song Flute'}) ON CREATE SET SyeedasSongFlute.album=GiantSteps
+MERGE (Naima:Tune {name:'Naima'}) ON CREATE SET Naima.album=GiantSteps
+MERGE (MrPC:Tune {name:'Mr. P.C.'}) ON CREATE SET MrPC.album=GiantSteps
+
+MERGE (JohnColtrane)-[:PLAYED_ON]->(GiantSteps)
+MERGE (CedarWalton)-[:PLAYED_ON]->(GiantSteps)
+MERGE (PaulChambers)-[:PLAYED_ON]->(GiantSteps)
+MERGE (LexHumphries)-[:PLAYED_ON]->(GiantSteps)
+MERGE (TommyFlanagan)-[:PLAYED_ON]->(GiantSteps)
+MERGE (ArtTaylor)-[:PLAYED_ON]->(GiantSteps)
+MERGE (NesuhiErtegun)-[:PRODUCED]->(GiantSteps)
+
+MERGE (JohnColtrane)-[:COMPOSED]->(GiantStepsTune)
+MERGE (JohnColtrane)-[:COMPOSED]->(Countdown)
+MERGE (JohnColtrane)-[:COMPOSED]->(Naima)
+MERGE (JohnColtrane)-[:COMPOSED]->(MrPC)
+
+MERGE (Moanin:album {title:'Moanin\''}) ON CREATE SET Moanin.released=1959, Moanin.label='Blue Note', Moanin.group='Art Blakey and the Jazz Messengers', Moanin.leader='Art Blakey'
+
+MERGE (ArtBlakey:Person {name:'Art Blakey'}) ON CREATE SET ArtBlakey.born=1919, ArtBlakey.instrument=drums
+MERGE (LeeMorgan:Person {name:'Lee Morgan'}) ON CREATE SET LeeMorgan.born=1938, LeeMorgan.instrument=trumpet
+MERGE (BennyGolson:Person {name:'Benny Golson'}) ON CREATE SET BennyGolson.born=1929, BennyGolson.instrument=tenor
+MERGE (BobbyTimmons:Person {name:'Bobby Timmons'}) ON CREATE SET BobbyTimmons.born=1935, BobbyTimmons.instrument=piano
+MERGE (JymieMerritt:Person {name:'Jymie Merritt'}) ON CREATE SET JymieMerritt.born=1926, JymieMerritt.instrument=bass
+MERGE (AlfredLion:Person {name:'Alfred Lion'}) ON CREATE SET AlfredLion.born=1908
+MERGE (HaroldArlen:Person {name:'HaroldArlen'}) ON CREATE SET HaroldArlen.born=1905
+MERGE (JohnnyMercer:Person {name:'Johnny Mercer'}) ON CREATE SET JohnnyMercer.born=1909
+
+MERGE (MoaninTune:Tune {name:'Moanin\''}) ON CREATE SET Moanin.album=Moanin
+MERGE (AreYouReal:Tune {name:'Are You Real'}) ON CREATE SET AreYouReal.album=Moanin
+MERGE (AlongCameBetty:Tune {name:'Along Came Betty'}) ON CREATE SET AlongCameBetty.album=Moanin
+MERGE (DrumThunderSuite:Tune {name:'The Drum Thunder Suite'}) ON CREATE SET DrumThunderSuite.album=Moanin
+MERGE (BluesMarch:Tune {name:'Blues March'}) ON CREATE SET BluesMarch.album=Moanin
+MERGE (ComeRain:Tune {name:'Come Rain or Come Shine'}) ON CREATE SET ComeRain.album=Moanin
+
+MERGE (ArtBlakey)-[:PLAYED_ON]->(Moanin)
+MERGE (LeeMorgan)-[:PLAYED_ON]->(Moanin)
+MERGE (BennyGolson)-[:PLAYED_ON]->(Moanin)
+MERGE (BobbyTimmons)-[:PLAYED_ON]->(Moanin)
+MERGE (JymieMerritt)-[:PLAYED_ON]->(Moanin)
+MERGE (AlfredLion)-[:PRODUCED]->(Moanin)
+
+MERGE (ArtBlakey)-[:COMPOSED]->(DrumThunderSuite)
+MERGE (BobbyTimmons)-[:COMPOSED]->(MoaninTune)
+MERGE (BennyGolson)-[:COMPOSED]->(AreYouReal)
+MERGE (LeeMorgan)-[:COMPOSED]->(AreYouReal)
+MERGE (BennyGolson)-[:COMPOSED]->(AlongCameBetty)
+MERGE (BennyGolson)-[:COMPOSED]->(BluesMarch)
+MERGE (HaroldArlen)-[:COMPOSED]->(ComeRain)
+MERGE (JohnnyMercer)-[:COMPOSED]->(ComeRain)
+
+MERGE (MessengerswithMonk:album {title:"Art Blakey\'s Jazz Messengers with Thelonious Monk"}) ON CREATE SET MessengerswithMonk.released=1958, MessengerswithMonk.label='Atlantic', MessengerswithMonk.group='Art Blakey and the Jazz Messengers', MessengerswithMonk.leader='Art Blakey', MessengerswithMonk.leader='Thelonious Monk'
+
+MERGE (BillHardman:Person {name:'Bill Hardman'}) ON CREATE SET BillHardman.born=1933, BillHardman.instrument=trumpet
+MERGE (JohnnyGriffin:Person {name:'Johnny Griffin'}) ON CREATE SET JohnnyGriffin.born=1928, JohnnyGriffin.instrument=tenor
+MERGE (TheloniousMonk:Person {name:'Thelonious Monk'}) ON CREATE SET TheloniousMonk.born=1917, TheloniousMonk.instrument=piano
+MERGE (SpankyDeBrest:Person {name:'Spanky DeBrest'}) ON CREATE SET SpankyDeBrest.born=1937, SpankyDeBrest.instrument=bass
+MERGE (ColemanHawkins:Person {name:'Coleman Hawkins'}) ON CREATE SET ColemanHawkins.born=1904, ColemanHawkins.instrument=tenor
+
+MERGE (Evidence:Tune {name:'Evidence'}) ON CREATE SET Evidence.album=MessengerswithMonk
+MERGE (InWalkedBud:Tune {name:'In Walked Bud'}) ON CREATE SET InWalkedBud.album=MessengerswithMonk
+MERGE (BlueMonk:Tune {name:'Blue Monk'}) ON CREATE SET BlueMonk.album=MessengerswithMonk
+MERGE (IMeanYou:Tune {name:'I Mean You'}) ON CREATE SET IMeanYou.album=MessengerswithMonk
+MERGE (RhythmaNing:Tune {name:'Rhythm-a-Ning'}) ON CREATE SET RhythmaNing.album=MessengerswithMonk
+MERGE (PurpleShades:Tune {name:'Purple Shades'}) ON CREATE SET PurpleShades.album=MessengerswithMonk
+
+MERGE (ArtBlakey)-[:PLAYED_ON]->(MessengerswithMonk)
+MERGE (BillHardman)-[:PLAYED_ON]->(MessengerswithMonk)
+MERGE (JohnnyGriffin)-[:PLAYED_ON]->(MessengerswithMonk)
+MERGE (TheloniousMonk)-[:PLAYED_ON]->(MessengerswithMonk)
+MERGE (SpankyDeBrest)-[:PLAYED_ON]->(MessengerswithMonk)
+MERGE (NesuhiErtegun)-[:PRODUCED]->(MessengerswithMonk)
+
+MERGE (TheloniousMonk)-[:COMPOSED]->(Evidence)
+MERGE (TheloniousMonk)-[:COMPOSED]->(InWalkedBud)
+MERGE (TheloniousMonk)-[:COMPOSED]->(BlueMonk)
+MERGE (TheloniousMonk)-[:COMPOSED]->(IMeanYou)
+MERGE (ColemanHawkins)-[:COMPOSED]->(IMeanYou)
+MERGE (TheloniousMonk)-[:COMPOSED]->(RhythmaNing)
+MERGE (TheloniousMonk)-[:COMPOSED]->(PurpleShades)
+
+
+MERGE (FuchsiaSwingSong:album {title:'Fuchsia Swing Song'}) ON CREATE SET FuchsiaSwingSong.released=1965, FuchsiaSwingSong.label='Blue Note', TimeOut.leader=SamRivers
+
+MERGE (SamRivers:Person {name:'Sam Rivers'}) ON CREATE SET SamRivers.born=1923, SamRivers.instrument=tenor
+MERGE (RonCarter:Person {name:'Ron Carter'}) ON CREATE SET RonCarter.born=1937, RonCarter.instrument=bass
+MERGE (TonyWilliams:Person {name:'Tony Williams'}) ON CREATE SET TonyWilliams.born=1945, TonyWilliams.instrument=drums
+MERGE (JakiByard:Person {name:'Jaki Byard'}) ON CREATE SET JakiByard.born=1922, JakiByard.instrument=piano
+MERGE (AlfredLion:Person {name:'Alfred Lion'}) ON CREATE SET AlfredLion.born=1908
+
+MERGE (FuchsiaSwingSongTune:Tune {name:'Fuchsia Swing Song'}) ON CREATE SET FuchsiaSwingSongTune.album=FuchsiaSwingSong
+MERGE (DownstairsBluesUpstairs:Tune {name:'Downstairs Blues Upstairs'}) ON CREATE SET DownstairsBluesUpstairs.album=FuchsiaSwingSong
+MERGE (CyclicEpisode:Tune {name:'Cyclic Episode'}) ON CREATE SET CyclicEpisode.album=FuchsiaSwingSong
+MERGE (LuminousMonolith:Tune {name:'Luminous Monolith'}) ON CREATE SET LuminousMonolith.album=FuchsiaSwingSong
+MERGE (Beatrice:Tune {name:'Beatrice'}) ON CREATE SET Beatrice.album=FuchsiaSwingSong
+MERGE (Ellipsis:Tune {name:'Ellipsis'}) ON CREATE SET Ellipsis.album=FuchsiaSwingSong
+
+
+MERGE (SamRivers)-[:PLAYED_ON]->(FuchsiaSwingSong)
+MERGE (JakiByard)-[:PLAYED_ON]->(FuchsiaSwingSong)
+MERGE (RonCarter)-[:PLAYED_ON]->(FuchsiaSwingSong)
+MERGE (TonyWilliams)-[:PLAYED_ON]->(FuchsiaSwingSong)
+MERGE (AlfredLion)-[:PRODUCED]->(FuchsiaSwingSong)
+
+MERGE (SamRivers)-[:COMPOSED]->(FuchsiaSwingSongTune)
+MERGE (SamRivers)-[:COMPOSED]->(DownstairsBluesUpstairs)
+MERGE (SamRivers)-[:COMPOSED]->(CyclicEpisode)
+MERGE (SamRivers)-[:COMPOSED]->(LuminousMonolith)
+MERGE (SamRivers)-[:COMPOSED]->(Beatrice)
+MERGE (SamRivers)-[:COMPOSED]->(Ellipsis)
