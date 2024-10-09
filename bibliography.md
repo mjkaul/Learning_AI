@@ -4,6 +4,10 @@ All free, mostly free, or at least partly free. Reach out if you have ideas for 
 
 Obviously don't feel compelled to buy the books or pay for courses. Find free alternatives elsewhere; just make sure you cover the same concepts and get somewhere close to the same results in the end. 
 
+### TBD
+
+- https://www.packtpub.com/en-us/product/rag-driven-generative-ai-9781836200918 - this one is highly recommended by Jeremy Revenel on LinkedIn
+
 ### Beginner - start here ### 
 
 - [Andrej Karpathy's vide "Intro to Large Language Models"](https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqRStI&index=1)
@@ -27,3 +31,20 @@ Obviously don't feel compelled to buy the books or pay for courses. Find free al
 - Stephens, *AI Algorithms (Manning 4 Projects)*
 - Maiden, *Neo4j (Manning 3 Projects)*
 - Elgueta, *LangChain (Manning 3 Projects)*
+
+### Meta ###
+
+These resources relate to how I've structured the overall project itself. E.g. what assumptions I'm making about how to learn.
+
+- [Dreyfus model of learning & mastery](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)
+- [Andy Hunt, *Pragmatic Thinking & Learning: Refactor Your Wetware*](https://archive.org/details/pragmaticthinkin00hunt_1)
+
+### Taxonomies, Ontologies, and Knowledge Graphs ###
+
+- [Heather Hedden, *The Accidental Taxonomist*]() - be sure to purchase the third edition (or newer, if applicable), which contains a new chapter on ontology
+- [Bob DuCharme blog on semantic web technologies](https://www.bobdc.com/blog/)
+- [David Knickerbocker, 100 Days of Networks project](https://100daysofnetworks.substack.com/)
+-[Lulit Tesfaye, "What is a Semantic Layer? Components and Enterprise Applications"]( https://enterprise-knowledge.com/what-is-a-semantic-layer-components-and-enterprise-applications/) - discusses taxonomy, ontology, kg, and other components
+- [Hogan et al, "Knowledge Graphs"](https://arxiv.org/pdf/2003.02320) - incredibly thorough and long introductory paper. See the 5 page appendix at the end for a history of KG technology.
+- [Amit Singhal, "Introducing the Knowledge Graph: things, not strings"](https://blog.google/products/search/introducing-knowledge-graph-things-not/) - the foundational blog post on knowledge graphs in terms of general awareness.
+- [Richard J. Trudeau, *Introduction to Graph Theory*](https://archive.org/details/introductiontogr0000trud) - published by Dover, you can get this new on Amazon very cheap. It's a great introduction to the math side of graph theory, which underpins all the exciting work being done on knowledge graphs right now. What's more, it's written with style & attitude, and has tons of example problems along with suggestions for further reading. 

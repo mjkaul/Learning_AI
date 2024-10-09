@@ -1,0 +1,985 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/matthewkaul/ontologies/2024/8/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="/Album"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Instrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Label"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Tune"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/composed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/leads"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/partOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/plays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/playsOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/playsWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/produced"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/recordedOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/releasedOn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/bornIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/released"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ECM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#From_the_Green_Hill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#allBlues"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#andersJormin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#artBlakey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bandoneon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#baritone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#billEvans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blueInGreen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blueNote"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cannonballAdderley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#columbia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#daveBrubeck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#daveBrubeckQuartet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dinoSaluzzi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#flamencoSketches"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#freddieFreeloader"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#impulse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#irvingTownsend"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jazzMessengers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jimmyCobb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#johnColtrane"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#johnSurman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jonChristensen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#manfredEicher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#michelleMakarski"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#milesDavis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paulChambers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soWhat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tomaszStanko"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#violin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wyntonKelly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Art_Blakey&apos;s_Jazz_Messengers_with_Thelonious_Monk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moanin&apos;"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Fuchsia_Swing_Song"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/GiantSteps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/TimeOut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/alto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/bass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/drums"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/piano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/soprano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/tenor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/trumpet"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="/Label"/>
+        <NamedIndividual IRI="#ECM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Album"/>
+        <NamedIndividual IRI="#From_the_Green_Hill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Tune"/>
+        <NamedIndividual IRI="#allBlues"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="#artBlakey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Instrument"/>
+        <NamedIndividual IRI="#bandoneon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Instrument"/>
+        <NamedIndividual IRI="#baritone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="#billEvans"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Tune"/>
+        <NamedIndividual IRI="#blueInGreen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Label"/>
+        <NamedIndividual IRI="#blueNote"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="#cannonballAdderley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Label"/>
+        <NamedIndividual IRI="#columbia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="#daveBrubeck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Group"/>
+        <NamedIndividual IRI="#daveBrubeckQuartet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Tune"/>
+        <NamedIndividual IRI="#flamencoSketches"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Tune"/>
+        <NamedIndividual IRI="#freddieFreeloader"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Label"/>
+        <NamedIndividual IRI="#impulse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="#irvingTownsend"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Group"/>
+        <NamedIndividual IRI="#jazzMessengers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="#jimmyCobb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="#johnColtrane"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="#milesDavis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="#paulChambers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Tune"/>
+        <NamedIndividual IRI="#soWhat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Instrument"/>
+        <NamedIndividual IRI="#violin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Person"/>
+        <NamedIndividual IRI="#wyntonKelly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Album"/>
+        <NamedIndividual IRI="#Art_Blakey&apos;s_Jazz_Messengers_with_Thelonious_Monk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Album"/>
+        <NamedIndividual IRI="#Moanin&apos;"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Album"/>
+        <NamedIndividual IRI="/Fuchsia_Swing_Song"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Album"/>
+        <NamedIndividual IRI="/GiantSteps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Album"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Album"/>
+        <NamedIndividual IRI="/TimeOut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Instrument"/>
+        <NamedIndividual IRI="/alto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Instrument"/>
+        <NamedIndividual IRI="/bass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Instrument"/>
+        <NamedIndividual IRI="/drums"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Instrument"/>
+        <NamedIndividual IRI="/piano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Instrument"/>
+        <NamedIndividual IRI="/soprano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Instrument"/>
+        <NamedIndividual IRI="/tenor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Instrument"/>
+        <NamedIndividual IRI="/trumpet"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/releasedOn"/>
+        <NamedIndividual IRI="#From_the_Green_Hill"/>
+        <NamedIndividual IRI="#ECM"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/recordedOn"/>
+        <NamedIndividual IRI="#allBlues"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#andersJormin"/>
+        <NamedIndividual IRI="/bass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#artBlakey"/>
+        <NamedIndividual IRI="/drums"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/composed"/>
+        <NamedIndividual IRI="#billEvans"/>
+        <NamedIndividual IRI="#blueInGreen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/composed"/>
+        <NamedIndividual IRI="#billEvans"/>
+        <NamedIndividual IRI="#flamencoSketches"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#billEvans"/>
+        <NamedIndividual IRI="/piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/playsOn"/>
+        <NamedIndividual IRI="#billEvans"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/recordedOn"/>
+        <NamedIndividual IRI="#blueInGreen"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#cannonballAdderley"/>
+        <NamedIndividual IRI="/alto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/playsOn"/>
+        <NamedIndividual IRI="#cannonballAdderley"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/leads"/>
+        <NamedIndividual IRI="#daveBrubeck"/>
+        <NamedIndividual IRI="#daveBrubeckQuartet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/leads"/>
+        <NamedIndividual IRI="#daveBrubeck"/>
+        <NamedIndividual IRI="/TimeOut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#daveBrubeck"/>
+        <NamedIndividual IRI="/piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/playsOn"/>
+        <NamedIndividual IRI="#daveBrubeck"/>
+        <NamedIndividual IRI="/TimeOut"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#dinoSaluzzi"/>
+        <NamedIndividual IRI="#bandoneon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/playsOn"/>
+        <NamedIndividual IRI="#dinoSaluzzi"/>
+        <NamedIndividual IRI="#From_the_Green_Hill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/recordedOn"/>
+        <NamedIndividual IRI="#flamencoSketches"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/recordedOn"/>
+        <NamedIndividual IRI="#freddieFreeloader"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/produced"/>
+        <NamedIndividual IRI="#irvingTownsend"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#jimmyCobb"/>
+        <NamedIndividual IRI="/drums"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/playsOn"/>
+        <NamedIndividual IRI="#jimmyCobb"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#johnColtrane"/>
+        <NamedIndividual IRI="/tenor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#johnSurman"/>
+        <NamedIndividual IRI="#From_the_Green_Hill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#johnSurman"/>
+        <NamedIndividual IRI="#baritone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#jonChristensen"/>
+        <NamedIndividual IRI="/drums"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/playsOn"/>
+        <NamedIndividual IRI="#jonChristensen"/>
+        <NamedIndividual IRI="#From_the_Green_Hill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/produced"/>
+        <NamedIndividual IRI="#manfredEicher"/>
+        <NamedIndividual IRI="#From_the_Green_Hill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#michelleMakarski"/>
+        <NamedIndividual IRI="#violin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/playsOn"/>
+        <NamedIndividual IRI="#michelleMakarski"/>
+        <NamedIndividual IRI="#From_the_Green_Hill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/composed"/>
+        <NamedIndividual IRI="#milesDavis"/>
+        <NamedIndividual IRI="#allBlues"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/composed"/>
+        <NamedIndividual IRI="#milesDavis"/>
+        <NamedIndividual IRI="#blueInGreen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/composed"/>
+        <NamedIndividual IRI="#milesDavis"/>
+        <NamedIndividual IRI="#flamencoSketches"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/composed"/>
+        <NamedIndividual IRI="#milesDavis"/>
+        <NamedIndividual IRI="#freddieFreeloader"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/composed"/>
+        <NamedIndividual IRI="#milesDavis"/>
+        <NamedIndividual IRI="#soWhat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/leads"/>
+        <NamedIndividual IRI="#milesDavis"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#milesDavis"/>
+        <NamedIndividual IRI="/trumpet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/playsOn"/>
+        <NamedIndividual IRI="#milesDavis"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#paulChambers"/>
+        <NamedIndividual IRI="/bass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/recordedOn"/>
+        <NamedIndividual IRI="#soWhat"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/leads"/>
+        <NamedIndividual IRI="#tomaszStanko"/>
+        <NamedIndividual IRI="#From_the_Green_Hill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#tomaszStanko"/>
+        <NamedIndividual IRI="/trumpet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/playsOn"/>
+        <NamedIndividual IRI="#tomaszStanko"/>
+        <NamedIndividual IRI="#From_the_Green_Hill"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/plays"/>
+        <NamedIndividual IRI="#wyntonKelly"/>
+        <NamedIndividual IRI="/piano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/playsOn"/>
+        <NamedIndividual IRI="#wyntonKelly"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/releasedOn"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+        <NamedIndividual IRI="#columbia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/releasedOn"/>
+        <NamedIndividual IRI="/TimeOut"/>
+        <NamedIndividual IRI="#columbia"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/released"/>
+        <NamedIndividual IRI="#From_the_Green_Hill"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1998-08-30T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/bornIn"/>
+        <NamedIndividual IRI="#artBlakey"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1919-10-19T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#artBlakey"/>
+        <Literal>Art Blakey</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/bornIn"/>
+        <NamedIndividual IRI="#billEvans"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1929-08-16T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#billEvans"/>
+        <Literal>Bill Evans</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#blueNote"/>
+        <Literal>Blue Note</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/bornIn"/>
+        <NamedIndividual IRI="#cannonballAdderley"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1928-09-28T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#cannonballAdderley"/>
+        <Literal>Julian &quot;Cannonball&quot; Adderley</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#columbia"/>
+        <Literal>Columbia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#dinoSaluzzi"/>
+        <Literal>Dino Saluzzi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#impulse"/>
+        <Literal>Impulse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/bornIn"/>
+        <NamedIndividual IRI="#irvingTownsend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1920-11-27T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#irvingTownsend"/>
+        <Literal>Irving Townsend</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#jazzMessengers"/>
+        <Literal>Jazz Messengers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/bornIn"/>
+        <NamedIndividual IRI="#jimmyCobb"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1929-01-20T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#jimmyCobb"/>
+        <Literal>Jimmy Cobb</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/bornIn"/>
+        <NamedIndividual IRI="#johnColtrane"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1926-09-23T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#johnColtrane"/>
+        <Literal>John Coltrane</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#johnSurman"/>
+        <Literal>John Surman</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/bornIn"/>
+        <NamedIndividual IRI="#jonChristensen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1943-03-20T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#jonChristensen"/>
+        <Literal>Jon Christensen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#manfredEicher"/>
+        <Literal>Manfred Eicher</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#michelleMakarski"/>
+        <Literal>Michelle Makarski</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/bornIn"/>
+        <NamedIndividual IRI="#milesDavis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1926-09-26T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#milesDavis"/>
+        <Literal>Miles Davis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/bornIn"/>
+        <NamedIndividual IRI="#paulChambers"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1935-04-22T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#paulChambers"/>
+        <Literal>Paul Chambers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#tomaszStanko"/>
+        <Literal>Tomasz Stańko</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/bornIn"/>
+        <NamedIndividual IRI="#wyntonKelly"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1931-12-02T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#wyntonKelly"/>
+        <Literal>Wynton Kelly</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#Art_Blakey&apos;s_Jazz_Messengers_with_Thelonious_Monk"/>
+        <Literal>Art Blakey&apos;s Jazz Messengers with Thelonious Monk</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="#Moanin&apos;"/>
+        <Literal>Moanin&apos;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="/Fuchsia_Swing_Song"/>
+        <Literal>Fuchsia Swing Song</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="/GiantSteps"/>
+        <Literal>Giant Steps</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+        <Literal>Kind of Blue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/released"/>
+        <NamedIndividual IRI="/KindofBlue"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1959-08-17T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/name"/>
+        <NamedIndividual IRI="/TimeOut"/>
+        <Literal>Time Out</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/released"/>
+        <NamedIndividual IRI="/TimeOut"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1959-12-14T12:00:00</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLedBy"/>
+        <ObjectProperty IRI="/leads"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/composed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasTitle"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/partOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/plays"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/produced"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/composed"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/leads"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/partOf"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/plays"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/playsOn"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/playsWith"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/produced"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/recordedOn"/>
+        <Class IRI="/Tune"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/releasedOn"/>
+        <Class IRI="/Album"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="/Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/composed"/>
+        <Class IRI="/Tune"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/leads"/>
+        <Class IRI="/Album"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/leads"/>
+        <Class IRI="/Group"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/partOf"/>
+        <Class IRI="/Group"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/plays"/>
+        <Class IRI="/Instrument"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/playsOn"/>
+        <Class IRI="/Album"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/playsOn"/>
+        <Class IRI="/Tune"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/playsWith"/>
+        <Class IRI="/Group"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/produced"/>
+        <Class IRI="/Album"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/recordedOn"/>
+        <Class IRI="/Album"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/releasedOn"/>
+        <Class IRI="/Label"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="/Group"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="/bornIn"/>
+        <Class IRI="/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/name"/>
+        <Class IRI="/Album"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/name"/>
+        <Class IRI="/Group"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/name"/>
+        <Class IRI="/Label"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/name"/>
+        <Class IRI="/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/name"/>
+        <Class IRI="/Tune"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/released"/>
+        <Class IRI="/Album"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="/bornIn"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/released"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/composed</IRI>
+        <Literal>Person composed Tune</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/leads</IRI>
+        <Literal>Person leads Group
+Person leads Album</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/name</IRI>
+        <Literal>Person / Album / Label / Tune / Group is [name]d Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/partOf</IRI>
+        <Literal>Person partOf Group</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/plays</IRI>
+        <Literal>Person plays Instrument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/playsWith</IRI>
+        <Literal>Person playsWith Group</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/recordedOn</IRI>
+        <Literal>Tune recordedOn Album</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/releasedOn</IRI>
+        <Literal>Album releasedOn Label</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

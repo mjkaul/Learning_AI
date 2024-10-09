@@ -1,5 +1,7 @@
 # Roadmap (subject to perennial revision)
 
+*Current planned major revision: rebuild this roadmap based on the [Dreyfus model of learning & mastery](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition).*
+
 Do these steps on your own. Once you've done them, come back here for the rest of it:
 
 0. [Create your Github account.](https://github.com/)
@@ -9,11 +11,13 @@ Do these steps on your own. Once you've done them, come back here for the rest o
 
 ## Building reliable, verifiable AI chatbots
 
-1. *[in progress]* [Train & deploy an LLM.](/simpleLLM.md) Then test it and find its weaknesses.
-2. Train your first RAG-based LLM & deploy it; then find its weaknesses.
-3. Build a [knowledge graph](/Projects/Knowledge_Graphs) w/Neo4j or Protege.
-4. Train your first KG+RAG LLM & deploy it, then find its weaknesses.
-5. Learn about AI ops: testing, maintaining, & updating the tools you've built.
+1. Understand and define basic AI terms and concepts.
+2. Deploy a standard open-source LLM as-is, with no special training.
+3. *[in progress]* [Train & deploy an LLM.](/simpleLLM.md) Then test it and find its weaknesses.
+4. Train your first RAG-based LLM & deploy it; then find its weaknesses.
+5. Build a [knowledge graph](/Projects/Knowledge_Graphs/kg_intro.md) w/Neo4j or Protege.
+6. Train your first KG+RAG LLM & deploy it, then find its weaknesses.
+7. Learn about AI ops: testing, maintaining, & updating the tools you've built.
 
 ## Someday/maybe ##
 

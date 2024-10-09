@@ -1,12 +1,7 @@
 CREATE CONSTRAINT album_title IF NOT EXISTS FOR (a:album) REQUIRE a.title IS UNIQUE;
 CREATE CONSTRAINT person_name IF NOT EXISTS FOR (p:Person) REQUIRE p.name IS UNIQUE;
 
-MERGE (KindofBlue:album {title:'Kind of Blue'}) ON CREATE SET KindofBlue.released=1959, KindofBlue.label='Columbia', KindofBlue.leader='Miles Davis'
 
-MERGE (MilesDavis:Person {name:'Miles Davis'}) ON CREATE SET MilesDavis.born=1926, MilesDavis.instrument=trumpet
-MERGE (JohnColtrane:Person {name:'John Coltrane'}) ON CREATE SET JohnColtrane.born=1926, JohnColtrane.instrument=tenor
-MERGE (CannonballAdderley:Person {name:'Julian "Cannonball" Adderley'}) ON CREATE SET CannonballAdderley.born=1928, CannonballAdderley.instrument=alto
-MERGE (BillEvans:Person {name:'Bill Evans'}) ON CREATE SET BillEvans.born=1929, BillEvans.instrument=piano
 MERGE (PaulChambers:Person {name:'Paul Chambers'}) ON CREATE SET PaulChambers.born=1935, PaulChambers.instrument=bass
 MERGE (JimmyCobb:Person {name:'Jimmy Cobb'}) ON CREATE SET JimmyCobb.born=1929, JimmyCobb.instrument=drums
 MERGE (WyntonKelly:Person {name:'Wynton Kelly'}) ON CREATE SET WyntonKelly.born=1931, WyntonKelly.instrument=piano
@@ -97,7 +92,6 @@ MERGE (JohnColtrane)-[:COMPOSED]->(MrPC)
 
 MERGE (Moanin:album {title:'Moanin\''}) ON CREATE SET Moanin.released=1959, Moanin.label='Blue Note', Moanin.group='Art Blakey and the Jazz Messengers', Moanin.leader='Art Blakey'
 
-MERGE (ArtBlakey:Person {name:'Art Blakey'}) ON CREATE SET ArtBlakey.born=1919, ArtBlakey.instrument=drums
 MERGE (LeeMorgan:Person {name:'Lee Morgan'}) ON CREATE SET LeeMorgan.born=1938, LeeMorgan.instrument=trumpet
 MERGE (BennyGolson:Person {name:'Benny Golson'}) ON CREATE SET BennyGolson.born=1929, BennyGolson.instrument=tenor
 MERGE (BobbyTimmons:Person {name:'Bobby Timmons'}) ON CREATE SET BobbyTimmons.born=1935, BobbyTimmons.instrument=piano
