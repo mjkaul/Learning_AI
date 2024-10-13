@@ -9,15 +9,15 @@ Let me emphasize, though: you don't need to be an expert coder to use Raschka's 
 A suggestion for an effective 11-step LLM summer study plan:
 
 1. Read* Chapters 1 and 2 on implementing the data loading pipeline (https://lnkd.in/gfruEiwm & https://lnkd.in/gyDm4h3y).
-2. Watch Karpathy's video on training a BPE tokenizer from scratch (https://lnkd.in/gZEsdpYc).
+2. Watch [Karpathy's video](https://www.youtube.com/watch?v=zduSFxRajkE) on training a BPE tokenizer from scratch.
 3. Read Chapters 3 and 4 on implementing the model architecture.
 4. Watch Karpathy's video on pretraining the LLM.
 5. Read Chapter 5 on pretraining the LLM and then loading pretrained weights.
 6. Read Appendix E on adding additional bells and whistles to the training loop.
 7. Read Chapters 6 and 7 on finetuning the LLM.
 8. Read Appendix E on parameter-efficient finetuning with LoRA.
-9. Check out Karpathy's repo on coding the LLM in C code (https://github.com/karpathy/llm.c).
-10. Check out LitGPT to see how multi-GPU training is implemented and how different LLM architectures compare (https://lnkd.in/gzYc69c7).
+9. Check out [Karpathy's repo]((https://github.com/karpathy/llm.c)) on coding the LLM in C code.
+10. Check out [LitGPT](https://github.com/Lightning-AI/litgpt) to see how multi-GPU training is implemented and how different LLM architectures compare.
 11. Build something cool and share it with the world.
 
 (*"Read" = read, run the code, and attempt the exercises 😊)

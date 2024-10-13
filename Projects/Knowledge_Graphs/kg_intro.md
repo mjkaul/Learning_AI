@@ -4,18 +4,17 @@
 
 There are not a ton of good resources out there on why knowledge graphs are so useful for AI.
 
-But everything I can find I'm collecting here.
+But everything I can find I'm collecting here. And the few things that currently exist are very high-quality.
 
 A note on terminology: several different terms are used to describe different, sometimes overlapping, areas within this field. "Taxonomy," "ontology," and "knowledge graph" are the three terms that are most useful—and unfortunately these three terms are often defined interchangeably or ambiguously.
 
 ## Resources
 
-See the [bibliography](~/bibliography.md) for a complete overview
+See the [bibliography](~/bibliography.md).
 
-- Heather Hedden, [*The Accidental Taxonomist*](https://www.hedden-information.com/accidental-taxonomist/)
-- Michael Iantosca, Helmut Nagy, and William Sandri, ["Document Object Model Graph RAG: A semantic, content-first, and knowledge-management architecture for neuro-symbolic RAG"](https://medium.com/@nc_mike/document-object-model-graph-rag-af8ae452b0b6) / [pdf version](https://img1.wsimg.com/blobby/go/8d83b4d9-fe3b-41c3-ba74-a645effc4bf2/downloads/The%20DOM%20GraphRAG%20Project.pdf?ver=1726416712048)
-- [OWL 2 Primer (W3C)](https://www.w3.org/TR/owl2-primer/#Property_Characteristics)
-- Barry Smith, [Ontology for Systems Engineering](https://www.youtube.com/watch?v=bj8mSbHh-qA&t=13s)
+## Key Questions
+
+- property graph vs RDF triples
 
 ## Objectives
 

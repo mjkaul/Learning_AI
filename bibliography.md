@@ -8,6 +8,17 @@ Obviously don't feel compelled to buy the books or pay for courses. Find free al
 
 - https://www.packtpub.com/en-us/product/rag-driven-generative-ai-9781836200918 - this one is highly recommended by Jeremy Revenel on LinkedIn
 
+### Meta ###
+
+These resources relate to how I've structured the overall project itself. E.g. what assumptions I'm making about how to learn.
+
+- [Iain McGilchrist, *The Master & His Emissary* & *The Matter with Things*](https://channelmcgilchrist.com/home/)
+- [Dreyfus model of learning & mastery](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)
+- [Andy Hunt, *Pragmatic Thinking & Learning: Refactor Your Wetware*](https://archive.org/details/pragmaticthinkin00hunt_1)
+- [Scott Young, *Ultralearning*](https://www.scotthyoung.com/blog/ultralearning/)
+- [Cal Newport, *So Good They Can't Ignore You* & *Slow Productivity*](https://calnewport.com/writing/)
+- [Joshua Foer, *Moonwalking with Einstein*](https://en.wikipedia.org/wiki/Moonwalking_with_Einstein)
+
 ### Beginner - start here ### 
 
 - [Andrej Karpathy's vide "Intro to Large Language Models"](https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqRStI&index=1)
@@ -32,20 +43,10 @@ Obviously don't feel compelled to buy the books or pay for courses. Find free al
 - Maiden, *Neo4j (Manning 3 Projects)*
 - Elgueta, *LangChain (Manning 3 Projects)*
 
-### Meta ###
-
-These resources relate to how I've structured the overall project itself. E.g. what assumptions I'm making about how to learn.
-
-- [Iain McGilchrist, *The Master & His Emissary* & *The Matter with Things*](https://channelmcgilchrist.com/home/)
-- [Dreyfus model of learning & mastery](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)
-- [Andy Hunt, *Pragmatic Thinking & Learning: Refactor Your Wetware*](https://archive.org/details/pragmaticthinkin00hunt_1)
-- [Scott Young, *Ultralearning*](https://www.scotthyoung.com/blog/ultralearning/)
-- [Cal Newport, *So Good They Can't Ignore You* & *Slow Productivity*](https://calnewport.com/writing/)
-- [Joshua Foer, *Moonwalking with Einstein*](https://en.wikipedia.org/wiki/Moonwalking_with_Einstein)
-
 ### Taxonomies, Ontologies, and Knowledge Graphs ###
 
 - [Heather Hedden, *The Accidental Taxonomist*]() - be sure to purchase the third edition (or newer, if applicable), which contains a new chapter on ontology
+- Michael Iantosca, Helmut Nagy, and William Sandri, ["Document Object Model Graph RAG: A semantic, content-first, and knowledge-management architecture for neuro-symbolic RAG"](https://medium.com/@nc_mike/document-object-model-graph-rag-af8ae452b0b6) / [pdf version](https://img1.wsimg.com/blobby/go/8d83b4d9-fe3b-41c3-ba74-a645effc4bf2/downloads/The%20DOM%20GraphRAG%20Project.pdf?ver=1726416712048) - Start here. Such a clear overview of the limitations of stochastic LLMs and even RAG models, along with a clear articulation of an alternate, trustworthy model.
 - [Bob DuCharme blog on semantic web technologies](https://www.bobdc.com/blog/)
 - [David Knickerbocker, 100 Days of Networks project](https://100daysofnetworks.substack.com/)
 - [David Knickerbocker, *Network Science with Python*](https://www.oreilly.com/library/view/network-science-with/9781801073691/) - 
@@ -53,8 +54,16 @@ These resources relate to how I've structured the overall project itself. E.g. w
 - [Hogan et al, "Knowledge Graphs"](https://arxiv.org/pdf/2003.02320) - incredibly thorough and long introductory paper. See the 5 page appendix at the end for a history of KG technology.
 - [Amit Singhal, "Introducing the Knowledge Graph: things, not strings"](https://blog.google/products/search/introducing-knowledge-graph-things-not/) - the foundational blog post on knowledge graphs in terms of general awareness.
 - [Richard J. Trudeau, *Introduction to Graph Theory*](https://archive.org/details/introductiontogr0000trud) - published by Dover, you can get this new on Amazon very cheap. It's a great introduction to the math side of graph theory, which underpins all the exciting work being done on knowledge graphs right now. What's more, it's written with style & attitude, and has tons of example problems along with suggestions for further reading. 
+- [Dean Allemang, blog on KGs & AI](https://medium.com/@dallemang) - one of the KG OGs. 
+- [OWL 2 Primer (W3C)](https://www.w3.org/TR/owl2-primer/#Property_Characteristics)
+- Barry Smith, [Ontology for Systems Engineering](https://www.youtube.com/watch?v=bj8mSbHh-qA&t=13s)
+- [Uschold, Michael - *Demystifying OWL for the Enterprise*](https://link.springer.com/book/10.1007/978-3-031-79482-7)
+- [Allemang et al, *Semantic Web for the Working Ontologist*](http://workingontologist.org/index.html)
+- [Ashleigh Faith, Jesús Barrasa, & Dean Allemang, "Which is better for AI: Property Graph or Triple Store?" "](https://www.youtube.com/watch?v=0sL14JKdMbE)
 
 
 ### Using AI for Ontologies & KGs ###
 
 A subfield of the KG-->AI field is using AI to help you create, manage, and query KGs. 
+
+- [Sequeda, Allemang, Jacob, "A Benchmark to Understand the Role of Knowledge Graphs on Large Language Models' Accuracy for Question Answering on Enterprise SQL Databases"](https://arxiv.org/pdf/2311.07509)

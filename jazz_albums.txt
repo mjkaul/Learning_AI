@@ -2,16 +2,38 @@ CREATE CONSTRAINT album_title IF NOT EXISTS FOR (a:album) REQUIRE a.title IS UNI
 CREATE CONSTRAINT person_name IF NOT EXISTS FOR (p:Person) REQUIRE p.name IS UNIQUE;
 
 
-MERGE (PaulChambers:Person {name:'Paul Chambers'}) ON CREATE SET PaulChambers.born=1935, PaulChambers.instrument=bass
-MERGE (JimmyCobb:Person {name:'Jimmy Cobb'}) ON CREATE SET JimmyCobb.born=1929, JimmyCobb.instrument=drums
-MERGE (WyntonKelly:Person {name:'Wynton Kelly'}) ON CREATE SET WyntonKelly.born=1931, WyntonKelly.instrument=piano
-MERGE (IrvingTownsend:Person {name:'Irving Townsend'}) ON CREATE SET IrvingTownsend.born=1920
+MATCH (milesDavis:Person) WHERE milesDavis.name = 'Miles Davis'
+CREATE (paulChambers:Person { name: 'Paul Chambers', bornIn: '1935', plays: 'bass' }),
+(jimmyCobb:Person { name: 'Jimmy Cobb', bornIn: '1929', plays: 'drums' }),
+(wyntonKelly:Person { name: 'Wynton Kelly', bornIn: '1931', plays: 'piano' }),
+(billEvans:Person { name: 'Bill Evans', bornIn: '1929', plays: 'piano' }),
+(johnColtrane:Person { name: 'John Coltrane', bornIn: '1926', plays: 'tenor', plays: 'soprano' }),
+(cannonballAdderley:Person { name: 'Cannonball Adderley', bornIn: '1928', plays: 'alto', fullName: 'Julian Edwin "Cannonball" Adderley' }), 
+(irvingTownsend:Person { name: 'Irving Townsend', bornIn: '1920' }),
+(milesDavis)-[:KNOWS {since: 1955}]->(johnColtrane),(milesDavis)-[:KNOWS {rating: 5}]->(paulChambers),
+(billEvans)-[:KNOWS]->(paulChambers),(cannonballAdderley)-[:KNOWS]->(wyntonKelly),
+(irvingTownsend)-[:KNOWS]->(milesDavis),(milesDavis)-[:KNOWS]->(billEvans),
+(paulChambers)-[:KNOWS]->(johnColtrane)
+
+
+CREATE (kindOfBlue:Album {name: 'Kind of Blue', released: 1959 })
+
+
+CREATE (soWhat:Tune {name: 'So What'}), (FreddieFreeloader:Tune {name:'Freddie Freeloader'}), (BlueinGreen:Tune {name:'Blue in Green'}), (AllBlues:Tune {name:'All Blues'}), (FlamencoSketches:Tune {name:'Flamenco Sketches'})
 
 MERGE (SoWhat:Tune {name:'So What'}) ON CREATE SET SoWhat.album=KindofBlue
 MERGE (FreddieFreeloader:Tune {name:'Freddie Freeloader'}) ON CREATE SET FreddieFreeloader.album=KindofBlue
 MERGE (BlueinGreen:Tune {name:'Blue in Green'}) ON CREATE SET BlueinGreen.album=KindofBlue
 MERGE (AllBlues:Tune {name:'All Blues'}) ON CREATE SET AllBlues.album=KindofBlue
 MERGE (FlamencoSketches:Tune {name:'Flamenco Sketches'}) ON CREATE SET FlamencoSketches.album=KindofBlue
+
+MERGE (soWhat)-[:RECORDED_ON]->(kindOfBlue) 
+MERGE (FreddieFreeloader)-[:RECORDED_ON]->(kindOfBlue) 
+MERGE (BlueinGreen)-[:RECORDED_ON]->(kindOfBlue)
+MERGE (AllBlues)-[:RECORDED_ON]->(kindOfBlue)
+MERGE (FlamencoSketches)-[:RECORDED_ON]->(kindOfBlue)
+
+-----
 
 MERGE (MilesDavis)-[:PLAYED_ON]->(KindofBlue)
 MERGE (JohnColtrane)-[:PLAYED_ON]->(KindofBlue)
