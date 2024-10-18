@@ -70,6 +70,7 @@ These resources relate to how I've structured the project itself—e.g. what ass
 - [Uschold, Michael - *Demystifying OWL for the Enterprise*](https://link.springer.com/book/10.1007/978-3-031-79482-7)
 - [Allemang et al, *Semantic Web for the Working Ontologist*](http://workingontologist.org/index.html)
 - [Ashleigh Faith, Jesús Barrasa, & Dean Allemang, "Which is better for AI: Property Graph or Triple Store?" "](https://www.youtube.com/watch?v=0sL14JKdMbE)
+- [WhyHow.ai blog](https://medium.com/enterprise-rag)
 
 
 ### Using AI for Ontologies & KGs ###

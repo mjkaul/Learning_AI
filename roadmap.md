@@ -1,6 +1,8 @@
 # Roadmap (subject to perennial revision)
 
-*Current planned major revision: rebuild this roadmap based on the [Dreyfus model of learning & mastery](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition).*
+The learning plan is split into multiple courses. The goal is for each stage in each course to have unique objectives, a clearly defined set of terms and concepts, and 1-3 assignments.
+
+*Current planned major revision: rebuild this roadmap based on the [Dreyfus model of learning & mastery](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition). To achieve this, I'll have to add additional sections toware the end of the course that will provide some additional levels of learning along with more specific ways to track progress using the categories the Dreyfus model provides.* 
 
 ## Learning AI 001: Prereqs
 

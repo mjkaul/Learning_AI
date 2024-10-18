@@ -1,5 +1,7 @@
 # Learning_AI
 
+[**Just want to learn? START HERE**](/roadmap.md)
+
 Here's a blog that documents what I'm learning about knowledge graphs &amp; LLMs. 
 
 I have specific interests & objectives re: AI.
