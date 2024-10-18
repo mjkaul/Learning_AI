@@ -15,18 +15,21 @@ These resources relate to how I've structured the overall project itself. E.g. w
 - [Iain McGilchrist, *The Master & His Emissary* & *The Matter with Things*](https://channelmcgilchrist.com/home/)
 - [Dreyfus model of learning & mastery](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)
 - [Andy Hunt, *Pragmatic Thinking & Learning: Refactor Your Wetware*](https://archive.org/details/pragmaticthinkin00hunt_1)
-- [Scott Young, *Ultralearning*](https://www.scotthyoung.com/blog/ultralearning/)
+- [Scott Young, *Ultralearning*](https://www.scotthyoung.com/blog/ultralearning/) - [my notes](/ultralearning.md)
 - [Cal Newport, *So Good They Can't Ignore You* & *Slow Productivity*](https://calnewport.com/writing/)
 - [Joshua Foer, *Moonwalking with Einstein*](https://en.wikipedia.org/wiki/Moonwalking_with_Einstein)
 
 ### Beginner - start here ### 
 
-- [Andrej Karpathy's vide "Intro to Large Language Models"](https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqRStI&index=1)
 - [Deeplearning.ai](https://www.deeplearning.ai/) - a range of courses from beginner through advanced. 
+	- [AI for Everyone](https://www.deeplearning.ai/courses/ai-for-everyone/) is a good place to start if you're totally new.
+	- [Machine Learning specialization](https://www.coursera.org/specializations/machine-learning-introduction)
 - Wooldridge, [*A Brief History of Artificial Intelligence*](https://www.goodreads.com/book/show/53359507-a-brief-history-of-artificial-intelligence) - great intro to the history and the basic concepts. Well written & readable. Worthwhile even if you aren't going to do the coding.
 
 ### Intermediate ###
 
+- [Andrej Karpathy's vide "Intro to Large Language Models"](https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqRStI&index=1)
+- [Practical Deep Learning for Coders](https://course.fast.ai/)
 - 3blue1brown [video course on neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) - long explainer videos.
 - [Andrej Karpathy's Github repos](https://github.com/karpathy) - he's doing tons of projects that you can follow along with, particularly [Eureka Labs](https://eurekalabs.ai/), which is going to be some sort of course about AI "taught" with the assistance of AI tutors.
 - Raschka, [*Building a Large Language Model (from Scratch)*](https://www.manning.com/books/build-a-large-language-model-from-scratch) - I'm working through this one already; it's great so far.
@@ -42,6 +45,7 @@ These resources relate to how I've structured the overall project itself. E.g. w
 - Stephens, *AI Algorithms (Manning 4 Projects)*
 - Maiden, *Neo4j (Manning 3 Projects)*
 - Elgueta, *LangChain (Manning 3 Projects)*
+
 
 ### Taxonomies, Ontologies, and Knowledge Graphs ###
 

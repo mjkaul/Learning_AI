@@ -4,17 +4,22 @@
 
 Do these steps on your own. Once you've done them, come back here for the rest of it:
 
+## Learning AI 101: The Basics
+
 0. [Create your Github account.](https://github.com/)
 1. [Make a blog.](/makeablog.md)
 2. Learn [how to use github](https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/) & the pull/commit/branch model.
 3. Learn the [basic concepts.](/basiconcepts.md)
 
-## Building reliable, verifiable AI chatbots
+## Learning AI 201: Building reliable, verifiable AI chatbots
 
 1. Understand and define basic AI terms and concepts.
 2. Deploy a standard open-source LLM as-is, with no special training.
-3. *[in progress]* [Train & deploy an LLM.](/simpleLLM.md) Then test it and find its weaknesses.
+3. *[in progress]* [Train & deploy an LLM.](/simpleLLM.md) Then test it and find its weaknesses. This section is long and should be subdivided.
 4. Train your first RAG-based LLM & deploy it; then find its weaknesses.
+
+## Learning AI 301: GraphRAG Mastery
+
 5. Build a [knowledge graph](/Projects/Knowledge_Graphs/kg_intro.md) w/Neo4j or Protege.
 6. Train your first KG+RAG LLM & deploy it, then find its weaknesses.
 7. Learn about AI ops: testing, maintaining, & updating the tools you've built.
