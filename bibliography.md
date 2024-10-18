@@ -1,8 +1,8 @@
 # Bibliography - books, essays, sites, & learning resources
 
-All free, mostly free, or at least partly free. Reach out if you have ideas for things to add.
+Probably around half of these are free. But if you're serious about learning, be serious about investing something in your learning. If you're like me, it will help you take your learning project more seriously.
 
-Obviously don't feel compelled to buy the books or pay for courses. Find free alternatives elsewhere; just make sure you cover the same concepts and get somewhere close to the same results in the end. 
+Reach out if you have ideas for things to add.
 
 ### TBD
 
@@ -10,14 +10,16 @@ Obviously don't feel compelled to buy the books or pay for courses. Find free al
 
 ### Meta ###
 
-These resources relate to how I've structured the overall project itself. E.g. what assumptions I'm making about how to learn.
+These resources relate to how I've structured the project itself—e.g. what assumptions I'm making about how to learn.
 
 - [Iain McGilchrist, *The Master & His Emissary* & *The Matter with Things*](https://channelmcgilchrist.com/home/)
 - [Dreyfus model of learning & mastery](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)
 - [Andy Hunt, *Pragmatic Thinking & Learning: Refactor Your Wetware*](https://archive.org/details/pragmaticthinkin00hunt_1)
 - [Scott Young, *Ultralearning*](https://www.scotthyoung.com/blog/ultralearning/) - [my notes](/ultralearning.md)
 - [Cal Newport, *So Good They Can't Ignore You* & *Slow Productivity*](https://calnewport.com/writing/)
-- [Joshua Foer, *Moonwalking with Einstein*](https://en.wikipedia.org/wiki/Moonwalking_with_Einstein)
+- [Joshua Foer, *Moonwalking with Einstein*](https://en.wikipedia.org/wiki/Moonwalking_with_Einstein) - a great book on how to memorize.  
+- [A.G. Sertillanges, *The Intellectual Life: Its Spirits, Conditions, Methods*](https://www.google.com/books/edition/The_Intellectual_Life/WSrK6QyNVhoC?hl=en)
+
 
 ### Beginner - start here ### 
 
@@ -29,15 +31,18 @@ These resources relate to how I've structured the overall project itself. E.g. w
 ### Intermediate ###
 
 - [Andrej Karpathy's vide "Intro to Large Language Models"](https://www.youtube.com/watch?v=zjkBMFhNj_g&list=PLAqhIrjkxbuW9U8-vZ_s_cjKPT_FqRStI&index=1)
-- [Practical Deep Learning for Coders](https://course.fast.ai/)
+- [Stephen Wolfram's essay on how LLMs work](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) - dense but incredibly thorough.
 - 3blue1brown [video course on neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) - long explainer videos.
 - [Andrej Karpathy's Github repos](https://github.com/karpathy) - he's doing tons of projects that you can follow along with, particularly [Eureka Labs](https://eurekalabs.ai/), which is going to be some sort of course about AI "taught" with the assistance of AI tutors.
 - Raschka, [*Building a Large Language Model (from Scratch)*](https://www.manning.com/books/build-a-large-language-model-from-scratch) - I'm working through this one already; it's great so far.
-- [Stephen Wolfram's essay on how LLMs work](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/) - dense but incredibly thorough.
+- [Practical Deep Learning for Coders](https://course.fast.ai/)
+- Howard & Gugger, [*Deep Learning for Coders with fastai and PyTorch*](https://course.fast.ai/Resources/book.html)
+
 
 ### Advanced ###
 
-- Howard & Gugger, [*Deep Learning for Coders with fastai and PyTorch*](https://www.oreilly.com/library/view/deep-learning-for/9781492045519/)
+
+- [Practical Deep Learning for Coders, part II](https://course.fast.ai/Lessons/part2.html)
 - [Andrej Karpathy's vide series "Neural Networks: Zero to Hero"](https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&si=9DqrnYQ1VXDjLWgo)
 - [fast.ai](https://www.fast.ai/)
 - [GPT learning hub](https://www.gptlearninghub.ai/codingproblems)
@@ -45,6 +50,7 @@ These resources relate to how I've structured the overall project itself. E.g. w
 - Stephens, *AI Algorithms (Manning 4 Projects)*
 - Maiden, *Neo4j (Manning 3 Projects)*
 - Elgueta, *LangChain (Manning 3 Projects)*
+- [Vaswani et al, "Attention is all you need"](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) - Come for the cheesy Beatles reference; stay for the groundbreaking definition of the transformer architecture
 
 
 ### Taxonomies, Ontologies, and Knowledge Graphs ###

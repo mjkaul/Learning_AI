@@ -1,5 +1,7 @@
 # Scott Young, *Ultralearning*
 
+My notes on Scott Young's book *Ultralearning*, which is a great place to start if you're interested in actually learning, not just pursuing a topic you're curious about. Indeed, the book will help you learn dramatically more, in a dramatically shorter period of time, than you would even if you enrolled in a full-time undergraduate program in the subject. My main takeaway from the book is that we're capable of a lot more than we typically expect of ourselves.
+
 The 9 Principles:
 
 1. Metalearning: first draw a map
