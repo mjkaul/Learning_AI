@@ -4,10 +4,6 @@ Probably around half of these are free. But if you're serious about learning, be
 
 Reach out if you have ideas for things to add.
 
-### TBD
-
-- https://www.packtpub.com/en-us/product/rag-driven-generative-ai-9781836200918 - this one is highly recommended by Jeremy Revenel on LinkedIn
-
 ### Meta ###
 
 These resources relate to how I've structured the project itself—e.g. what assumptions I'm making about how to learn.
@@ -41,7 +37,6 @@ These resources relate to how I've structured the project itself—e.g. what ass
 
 ### Advanced ###
 
-
 - [Practical Deep Learning for Coders, part II](https://course.fast.ai/Lessons/part2.html)
 - [Andrej Karpathy's vide series "Neural Networks: Zero to Hero"](https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&si=9DqrnYQ1VXDjLWgo)
 - [fast.ai](https://www.fast.ai/)
@@ -51,7 +46,7 @@ These resources relate to how I've structured the project itself—e.g. what ass
 - Maiden, *Neo4j (Manning 3 Projects)*
 - Elgueta, *LangChain (Manning 3 Projects)*
 - [Vaswani et al, "Attention is all you need"](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf) - Come for the cheesy Beatles reference; stay for the groundbreaking definition of the transformer architecture
-
+- Rothman, [RAG-Driven Generative AI: Build custom retrieval augmented generation pipelines with LlamaIndex, Deep Lake, and Pinecone](https://www.packtpub.com/en-us/product/rag-driven-generative-ai-9781836200918) - *[Highly recommended by Jeremy Revenel]*
 
 ### Taxonomies, Ontologies, and Knowledge Graphs ###
 

@@ -15,7 +15,7 @@ Do these steps on your own. Once you've done them, come back here and follow the
 0. Create your [learning map](/ultralearning.md). 
 1. [Create your Github account.](https://github.com/)
 2. [Make a blog.](/makeablog.md)
-3. Learn [how to use github](https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/) & the pull/commit/branch model.
+3. Learn [how to use github](https://www.freecodecamp.org/news/guide-to-git-github-for-beginners-and-experienced-devs/) & the pull/commit/branch model. *Extra credit: get comfortable with the [command line](https://learnpythonthehardway.org/book/appendixa.html) & learn to use github through its [command-line interface](https://docs.github.com/en/github-cli/github-cli/quickstart).*
 4. Learn the basic concepts. I learned a lot from Michael Woolridge's book *A Brief History of Artificial Intelligence* and Andrew Ng's *AI for Everyone* course. Write an essay articulating everything you've learned. Try to integrate as much as possible. It won't be perfect. That's ok. You can make it better as you learn more.
 
 ## Learning AI 002: Working on AI, with AI
