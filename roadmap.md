@@ -60,3 +60,10 @@ OK, when you make it this far—(let's be honest, when *I* make it this far, too
 - Build something amazing.  
 
 Then go learn something else.
+
+-----
+
+## Reference Materials ##
+
+[**Bibliography**](/bibliography.md)
+[**Glossary**](/glossary.md)
