@@ -6,21 +6,21 @@ Here's a blog that documents what I'm learning about knowledge graphs &amp; LLMs
 
 I have specific interests & objectives re: AI.
 
-I've been very skeptical of many of the claims being made about the nature of AI tools and their relationship to human consciousness (&amp; I often write about these topics on [LinkedIn](https://www.linkedin.com/in/mjkaul/))—but that doesn't mean that many of these AI tools aren't promising.
+I've been very skeptical of many of the claims being made about the nature of AI tools and their relationship to human consciousness (&amp; I sometimes write about these topics on [LinkedIn](https://www.linkedin.com/in/mjkaul/))—but that doesn't mean that many of these AI tools aren't promising—indeed, thrilling.
 
-I just want them to [do the dishes](https://x.com/AuthorJMac/status/1773679197631701238), rather than aping creativity while doing poorly what humans must strive to do well.
+I just want them to [do the dishes](https://x.com/AuthorJMac/status/1773679197631701238), rather than aping creativity & culture.
 
 My day job is in healthcare, and standard LLMs simply aren't going to cut it from a quality perspective. When it comes to generative AI in heatlhcare, an AI tool's output needs to be both verifiable (meaning it meets your requirements, including requirements for truthfulness and reliability) and validatable (meaning it meets your user's needs). 
 
-Hence my interest in the combination of LLMs and knowledge graphs, or what Microsoft and others are calling "GraphRAG." 
+Hence my particular interest in the combination of LLMs and knowledge graphs, or what Microsoft and others are calling "GraphRAG." 
 
-My initial question is: how could teachers and authors easily generate knowledge graphs related to their work that could then be used as the foundation of chatbots that would supplement the reading and learning experience? 
+The question driving me is: how can teachers and authors easily generate knowledge graphs related to their work that could provide a foundation for chatbots that could supplement the learning experience? How could tools like this transform education by connecting verified knowledge with the remarkable agility of LLMs? How could this transformation bring world-class, personalized education to people around the world without requiring the debt loads that current higher ed often entails?
 
-In the case of a teacher, these AI agents could be reliable teaching assistants, trained on the learning objectives and grading rubrics of the teacher while also always available and immediately responsive to students?
+For a teacher, these AI agents could be reliable teaching assistants, trained on the learning objectives and grading rubrics of the teacher while also always available and immediately responsive to student questions and drafts.
 
 In the case of a writer, the AI agents could play the role of facilitator and tutor, guiding readers through difficult books, providing encouragement and a repository of notes, highlights, and terms that could aid review and recall. 
 
-In both these cases, AI can supplement human aims, helping us work toward goals we've defined for ourselves. And this, I believe, is where AI has the most promise. 
+In both these cases, AI can supplement human aims, helping us work toward goals we've defined personally—promoting individuality, creativity, and autonomy.
 
 All existing AI tools are only useful when they are given a telos by humans. Without an end to aim for, they don't do anything. But as AI grows more powerful, this means it matters more than ever how we imagine our ends, our intentions, goals, & collective future. If we don't define the telos, it will be defined by people who are indifferent or even hostile to our common humanity. 
 

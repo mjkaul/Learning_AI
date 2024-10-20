@@ -71,6 +71,8 @@ These resources relate to how I've structured the project itself—e.g. what ass
 - [Allemang et al, *Semantic Web for the Working Ontologist*](http://workingontologist.org/index.html)
 - [Ashleigh Faith, Jesús Barrasa, & Dean Allemang, "Which is better for AI: Property Graph or Triple Store?" "](https://www.youtube.com/watch?v=0sL14JKdMbE)
 - [WhyHow.ai blog](https://medium.com/enterprise-rag)
+- [Unlocking LLM Power with Organizational KG Ontologies](https://superlinked.com/vectorhub/articles/kg-ontologies)
+- [The Semantic Layer](https://www.knowledge-graph-guys.com/blog/the-semantic-layer)
 
 
 ### Using AI for Ontologies & KGs ###

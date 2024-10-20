@@ -20,14 +20,14 @@ Before starting on any ultralearning project, answer these 3 questions: Why? Wha
 
 ### Why?
 
-Your learning map should start by clarifying whether your learning project is intrinsic or instrumental.
+Start by clarifying whether your learning project is intrinsic or instrumental.
 
 - Intrinsic vs instrumental learning projects: intrinsic projects are things you do purely for their own sake, not to achieve some other goal like getting a new job. Instrumental learning projects are in service of some other goal.
 - Expert interview - ask an expert in the field if your learning plan lines up with their understanding of the field.
 
 ### What? 
 
-Your learning plan should contain the following elements.
+Define the following elements for your field of study as thoroughly as you can at this point.
 
 - Concepts - what needs to be understood?
 - Facts - what needs to be memorized?
