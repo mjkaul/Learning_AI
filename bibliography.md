@@ -12,14 +12,14 @@ Reach out if you have ideas for things to add.
 
 These resources relate to how I've structured the project itself—e.g. what assumptions I'm making about how to learn.
 
-- [Iain McGilchrist, *The Master & His Emissary* & *The Matter with Things*](https://channelmcgilchrist.com/home/)
+- [A.G. Sertillanges, *The Intellectual Life: Its Spirits, Conditions, Methods*](https://www.google.com/books/edition/The_Intellectual_Life/WSrK6QyNVhoC?hl=en) - An old book from a scholar-priest who knew how to manage attention & curiosity in the service of a fulfilling intellectual life.
+- [William Zinsser, *Writing to Learn*](https://www.google.com/books/edition/Writing_to_Learn/KJuqX0ElT9wC?hl=en) - An incredible book; the title says it all. How to use writing to learn anything.
 - [Dreyfus model of learning & mastery](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)
-- [Andy Hunt, *Pragmatic Thinking & Learning: Refactor Your Wetware*](https://archive.org/details/pragmaticthinkin00hunt_1)
 - [Scott Young, *Ultralearning*](https://www.scotthyoung.com/blog/ultralearning/) - [my notes](/ultralearning.md)
+- [Iain McGilchrist, *The Master & His Emissary* & *The Matter with Things*](https://channelmcgilchrist.com/home/) - I don't think anyone understands the modern world as deeply as McGilchrist.
+- [Andy Hunt, *Pragmatic Thinking & Learning: Refactor Your Wetware*](https://archive.org/details/pragmaticthinkin00hunt_1)
 - [Cal Newport, *So Good They Can't Ignore You* & *Slow Productivity*](https://calnewport.com/writing/)
-- [Joshua Foer, *Moonwalking with Einstein*](https://en.wikipedia.org/wiki/Moonwalking_with_Einstein) - a great book on how to memorize.  
-- [A.G. Sertillanges, *The Intellectual Life: Its Spirits, Conditions, Methods*](https://www.google.com/books/edition/The_Intellectual_Life/WSrK6QyNVhoC?hl=en)
-
+- [Joshua Foer, *Moonwalking with Einstein*](https://en.wikipedia.org/wiki/Moonwalking_with_Einstein) - The lost arts of memorization.  
 
 ### Beginner - start here ### 
 
