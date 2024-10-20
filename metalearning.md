@@ -5,16 +5,14 @@
 - Understand what metalearning is and why it's important.
 - Develop a learning map for your AI study that will guide you along your learning journey.
 
-## Terms & Concepts
+## Terms & concepts
 
 - Metalearning: learning about learning
 - Learning map: a visual depiction of your learning project that answers why, what, and how you will learn
 
-## Assignment
+-----
 
-- Develop a learning map based on the criteria listed here.
-
-## Content
+# Module content
 
 Before starting on any ultralearning project, answer these 3 questions: Why? What? How?
 
@@ -48,9 +46,18 @@ Finally, define the *how*: how are you going to learn this field? How much time 
 
 > A good rule of thumb is that you should invest approximately 10% of your total expected learning time into research prior to starting.
 
-## Long-Term Prospects
+## Long-term prospects
 
 The most valuable aspect of metalearning for one project is that you can apply what you’ve learned about metalearning to your next project, to keep stacking ultralearning projects throughout your life.
 
 > The best research, resources, and strategies are useless unless you follow up with concentrated efforts to learn.
 
+-----
+
+# Assignment
+
+Create a learning map that reflects your own particular interests in AI. Your learning map should answer the following questions:
+
+- **Why?** Is your project instrumental or intrinsic? What expert or experts have you interviewed to understand the field?
+- **What?** What concepts, facts, and procedures will you need to learn? How do you know these are the right ones, and that you aren't missing anything important?
+- **How?** How will you learn? How much time will you spend? What tools will you use? What will you emphasize or exclude based on your unique interests? What can you benchmark yourself and your learning map against?
