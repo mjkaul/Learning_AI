@@ -4,6 +4,8 @@ Welcome. This blog documents what I'm learning about knowledge graphs &amp; LLMs
 
 If you'd like to know more about how this project started & where it's heading, read on. Otherwise, you can just [**start learning**](/roadmap.md).
 
+-----
+
 I have specific interests & objectives re: AI.
 
 I've been skeptical of many of the claims being made about the nature of AI tools and their relationship to human consciousness (&amp; I sometimes write about these topics on [LinkedIn](https://www.linkedin.com/in/mjkaul/))—but that doesn't mean that many of these AI tools aren't promising—indeed, thrilling.
