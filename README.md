@@ -1,6 +1,6 @@
 # Learning_AI
 
-Welcome. This blog documents what I'm learning about knowledge graphs &amp; LLMs. It's also the seed of an AI+knowledge graph project that I believe could transform education.
+Welcome. This blog documents what I'm learning about knowledge graphs &amp; LLMs. It's also the seed of an AI+knowledge graph project that I believe could transform education. Future iterations of this project will extend it to include intro-level humanities courses, a "degree" in PPE (Philosophy, Politics, & Economics), and classics.
 
 If you'd like to know more about how this project started & where it's heading, read on. Otherwise, you can just [**start learning**](/roadmap.md).
 
