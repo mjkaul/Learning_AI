@@ -786,7 +786,7 @@
     </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#isLedBy"/>
-        <ObjectProperty IRI="/leads"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="/composed"/>
