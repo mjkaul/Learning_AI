@@ -2,9 +2,13 @@
 
 The learning plan is split into multiple courses. The goal is for each stage in each course to have unique objectives, a clearly defined set of terms and concepts, and 1-3 assignments.
 
+As this AI-learning knowledge graph grows, it will become part of a custom AI tutor that can lead learners through each course and stage. I'll provide the knowledge graph here too, eventually, so that you can see how it grows and develops.
+
 *Current planned major revision: rebuild this roadmap based on the [Dreyfus model of learning & mastery](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition). To achieve this, I'll have to add additional sections toware the end of the course that will provide some additional levels of learning along with more specific ways to track progress using the categories the Dreyfus model provides.* 
 
 ## Learning AI 001: Prereqs
+
+In this course, you'll learn the basics. If you're a coder, you've probably already done most of this. If not, don't worry—you can get through these objectives relatively quickly, and they'll lay the foundation for everything we'll do in the future.
 
 Do these steps on your own. Once you've done them, come back here and follow the rest of the program.
 
@@ -16,9 +20,11 @@ Do these steps on your own. Once you've done them, come back here and follow the
 
 ## Learning AI 002: Working on AI, with AI
 
-IMO it's very beneficial to integrate your tools, objectives, and learning resources as much as possible. If you're learning knowledge graphs, build a knowledge graph about what you're learning. If you're learning AI, try using AI as much as possible. At the very least, this will help you understand where AI tools are weakest and need improvement. At best, you'll find as I have that AI tools can be very helpful in your learning process, if you use them productively.
+It's always beneficial to integrate your tools, objectives, and learning resources as much as possible. If you're learning knowledge graphs, build a knowledge graph about what you're learning. If you're learning AI, try using AI. Figure out its current strengths and weaknesses. Explore the amazing new tools popping up every day. At the very least, this process will help you understand where AI is weakest and needs improvement. At best, you'll find that many of these AI tools can be very helpful in your learning process, if you use them productively.
 
-A cautionary note, though: I don't think you'll learn much if you let AI do everything for you. Especially if you let it draft your essays. Essay writing is a profoundly helpful way to learn. Force yourself to do it and you'll learn a lot more—not just AI, but also about writing and, most importantly, about yourself.
+A cautionary note, though: you won't learn much if you let AI do everything for you. Especially if you let it draft your essays. Essay writing is a profoundly helpful way to learn. But it's helpful because it's so counter-cultural: slow, difficult, even boring at times. Force yourself to do it and you'll learn a lot more—not just AI, but also about writing and, most importantly, about yourself.
+
+In this course, we'll explore the different ways to use AI to assist learning. *Objectives & assignments coming soon.*
 
 ## Learning AI 101: Building reliable, verifiable AI chatbots
 
@@ -47,12 +53,10 @@ A cautionary note, though: I don't think you'll learn much if you let AI do ever
 
 ## Learning AI Graduate Level Seminar / PhD Dissertation
 
-OK, if you make it this far—heck, if *I* make it this far—we're going to be very good at building AI and using it for all kinds of different purposes. I think the next step is to go do whatever it is that led you here in the first place.
+OK, when you make it this far—(let's be honest, when *I* make it this far, too)—you're going to be very good at building AI and using it for all kinds of different purposes that will help you reach your goals and fulfill your potential. I think the next step is to go do whatever it is that led you here in the first place.
 
-Start a company.
-
-Get a new job.
-
-Build something amazing.
+- Start a company.  
+- Get a new job.  
+- Build something amazing.  
 
 Then go learn something else.
