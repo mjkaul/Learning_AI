@@ -4,6 +4,8 @@ The learning plan is split into multiple courses. The goal is for each stage in 
 
 As this AI-learning knowledge graph grows, it will become part of a custom AI tutor that can lead learners through each course and stage. I'll provide the knowledge graph here too, eventually, so that you can see how it grows and develops.
 
+Future iterations of this project will extend it to new courses; a few I'm plotting are intro-level humanities, a degree program in PPE (Philosophy, Politics, & Economics), classics, Shakespeare, & more. I'd love, for example, to integrate classic syllabi from great teachers into this format, so that we could participate, in some form, in the best courses from the past.
+
 *Current planned major revision: rebuild this roadmap based on the [Dreyfus model of learning & mastery](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition). To achieve this, I'll have to add additional sections toware the end of the course that will provide some additional levels of learning, along with more specific ways to track progress using the categories the Dreyfus model provides.* 
 
 ## Learning AI 001: Prereqs
