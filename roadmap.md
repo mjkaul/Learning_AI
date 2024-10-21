@@ -24,11 +24,11 @@ Do these steps on your own. Once you've done them, come back here and follow the
 
 It's always beneficial to integrate your tools, objectives, and learning resources as much as possible. If you're learning knowledge graphs, build a knowledge graph about what you're learning. If you're learning AI, try using AI. Figure out its current strengths and weaknesses. Explore the amazing new tools popping up every day. At the very least, this process will help you understand where AI is weakest and needs improvement. At best, you'll find that many of these AI tools can be very helpful in your learning process, if you use them productively.
 
-A cautionary note, though: you won't learn much if you let AI do everything for you. Especially if you let it draft your essays. Essay writing is a profoundly helpful way to learn. But it's helpful because it's so counter-cultural: slow, difficult, even boring at times. Force yourself to do it and you'll learn a lot more—not just AI, but also about writing and, most importantly, about yourself.
+A cautionary note, though: you won't learn much if you let AI do everything for you. Especially if you let it draft your essays. When it comes to learning, the obstacle is the way. Essay writing is a profoundly helpful way to learn. But it's helpful because it's so counter-cultural: slow, difficult, even boring at times. Force yourself to do it and you'll learn a lot more—not just AI, but also about writing and, most importantly, about yourself.
 
 In this course, we'll explore the different ways to use AI to assist learning. *Objectives & assignments coming soon.*
 
-## [Learning AI 101: Build your first chatbot](https://mjkaul.github.io/Learning_AI/101_building_ai_chatbots/)
+## [Learning AI 101: Build your first chatbot](101_building_ai_chatbots/101.1_intro.md)
 
 1. Deploy a standard open-source LLM, such as one from HuggingFace or Llama 3.2. 
 2. *[in progress]* [Train & deploy an LLM.](/simpleLLM.md) Then test it and find its weaknesses. This section is long and should be subdivided.
