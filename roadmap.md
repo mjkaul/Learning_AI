@@ -28,7 +28,7 @@ A cautionary note, though: you won't learn much if you let AI do everything for 
 
 In this course, we'll explore the different ways to use AI to assist learning. *Objectives & assignments coming soon.*
 
-## Learning AI 101: Building reliable, verifiable AI chatbots
+## [Learning AI 101: Building reliable, verifiable AI chatbots](/101_building_ai_chatbots)
 
 1. Deploy a standard open-source LLM, such as one from HuggingFace or Llama 3.2. 
 2. *[in progress]* [Train & deploy an LLM.](/simpleLLM.md) Then test it and find its weaknesses. This section is long and should be subdivided.
