@@ -51,7 +51,6 @@ These resources relate to how I've structured the project itself—e.g. what ass
 ### Taxonomies, Ontologies, and Knowledge Graphs ###
 
 - [Heather Hedden, *The Accidental Taxonomist*]() - be sure to purchase the third edition (or newer, if applicable), which contains a new chapter on ontology
-- Michael Iantosca, Helmut Nagy, and William Sandri, ["Document Object Model Graph RAG: A semantic, content-first, and knowledge-management architecture for neuro-symbolic RAG"](https://medium.com/@nc_mike/document-object-model-graph-rag-af8ae452b0b6) / [pdf version](https://img1.wsimg.com/blobby/go/8d83b4d9-fe3b-41c3-ba74-a645effc4bf2/downloads/The%20DOM%20GraphRAG%20Project.pdf?ver=1726416712048) - Start here. Such a clear overview of the limitations of stochastic LLMs and even RAG models, along with a clear articulation of an alternate, trustworthy model.
 - [Bob DuCharme blog on semantic web technologies](https://www.bobdc.com/blog/)
 - [David Knickerbocker, 100 Days of Networks project](https://100daysofnetworks.substack.com/)
 - [David Knickerbocker, *Network Science with Python*](https://www.oreilly.com/library/view/network-science-with/9781801073691/) - 
@@ -64,14 +63,34 @@ These resources relate to how I've structured the project itself—e.g. what ass
 - Barry Smith, [Ontology for Systems Engineering](https://www.youtube.com/watch?v=bj8mSbHh-qA&t=13s)
 - [Uschold, Michael - *Demystifying OWL for the Enterprise*](https://link.springer.com/book/10.1007/978-3-031-79482-7)
 - [Allemang et al, *Semantic Web for the Working Ontologist*](http://workingontologist.org/index.html)
-- [Ashleigh Faith, Jesús Barrasa, & Dean Allemang, "Which is better for AI: Property Graph or Triple Store?" "](https://www.youtube.com/watch?v=0sL14JKdMbE)
-- [WhyHow.ai blog](https://medium.com/enterprise-rag)
-- [Unlocking LLM Power with Organizational KG Ontologies](https://superlinked.com/vectorhub/articles/kg-ontologies)
 - [The Semantic Layer](https://www.knowledge-graph-guys.com/blog/the-semantic-layer)
 
+#### The Textual Encoding Initiative  
+
+I'm particularly interested in how ontologies and knowledge graphs can be used in education. For this reason, the [Textual Encoding Initiative](https://tei-c.org/) is a compelling project.
+
+- [A very gentle introduction to the TEI markup language](https://www.tei-c.org/Vault/Tutorials/mueller-index.htm)
+- [TEI and XML Markup for Absolute Beginners](https://collab.fordham.edu/gsdh/2016/06/16/tei-and-xml-markup-for-absolute-beginners/)
+- [TEI Simple](https://teisimple.wordpress.com/)
+- Ciotti, Tomasi, Peroni, Vitali, ["An Ontology for the TEI (Simple): One Step Beyond"](https://tei-c.org/Vault/MembersMeetings/2015/wp-content/uploads/2015/06/An-ontology-for-the-TEI-Simple.pdf)
+- [TEI by Example](https://www.teibyexample.org/exist/examples/)
+- [Folger Digital Texts Archive](https://www.folgerdigitaltexts.org/download/teisimple.html) - Most of Shakespeare, in TEI Simple format.
+- [TEI Publisher](https://teipublisher.com/exist/apps/tei-publisher-home/index.html)
+
+### Using KGs for AI
+
+A subfield of the KG+AI field: using KGs to help you build more-reliable AI.
+
+- Michael Iantosca, Helmut Nagy, and William Sandri, ["Document Object Model Graph RAG: A semantic, content-first, and knowledge-management architecture for neuro-symbolic RAG"](https://medium.com/@nc_mike/document-object-model-graph-rag-af8ae452b0b6) / [pdf version](https://img1.wsimg.com/blobby/go/8d83b4d9-fe3b-41c3-ba74-a645effc4bf2/downloads/The%20DOM%20GraphRAG%20Project.pdf?ver=1726416712048) - A clear overview of the limitations of stochastic LLMs and even RAG models, along with a clear articulation of an alternate, trustworthy model.
+- Philip Rathle, ["The GraphRAG Manifesto: Adding Knowledge to GenAI""](https://neo4j.com/blog/graphrag-manifesto/)
+- Ashleigh Faith, Jesús Barrasa, & Dean Allemang, ["Which is better for AI: Property Graph or Triple Store?"](https://www.youtube.com/watch?v=0sL14JKdMbE)
+- [WhyHow.ai blog](https://medium.com/enterprise-rag)
+- [Unlocking LLM Power with Organizational KG Ontologies](https://superlinked.com/vectorhub/articles/kg-ontologies)
+- Ben Lorica, ["Charting the Graphical Roadmap to Smarter AI""](https://gradientflow.substack.com/p/charting-the-graphical-roadmap-to)
+- Ben Lorica, ["GraphRAG: Design Patterns, Challenges, Recommendations"](https://gradientflow.com/graphrag-design-patterns-challenges-recommendations/) - The most comprehensive overview of different possible architectures for your KG+AI project.
 
 ### Using AI for Ontologies & KGs ###
 
-A subfield of the KG-->AI field is using AI to help you create, manage, and query KGs. 
+Another subfield of the KG+AI field: using AI to help you create, manage, and query KGs. 
 
 - [Sequeda, Allemang, Jacob, "A Benchmark to Understand the Role of Knowledge Graphs on Large Language Models' Accuracy for Question Answering on Enterprise SQL Databases"](https://arxiv.org/pdf/2311.07509)
