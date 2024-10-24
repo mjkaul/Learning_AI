@@ -1,0 +1,46 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+
+  <!-- Classes -->
+  <owl:Class rdf:about="#Course"/>
+  <owl:Class rdf:about="#Module"/>
+  <owl:Class rdf:about="#LearningObjective"/>
+  <owl:Class rdf:about="#KeyTerm"/>
+  <owl:Class rdf:about="#Content"/>
+  <owl:Class rdf:about="#Assignment"/>
+  <owl:Class rdf:about="#DueDate"/>
+
+  <!-- Object Properties -->
+  <owl:ObjectProperty rdf:about="#hasModule">
+    <rdfs:domain rdf:resource="#Course"/>
+    <rdfs:range rdf:resource="#Module"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#hasLearningObjective">
+    <rdfs:domain rdf:resource="#Course"/>
+    <rdfs:domain rdf:resource="#Module"/>
+    <rdfs:range rdf:resource="#LearningObjective"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#hasKeyTerm">
+    <rdfs:domain rdf:resource="#Module"/>
+    <rdfs:range rdf:resource="#KeyTerm"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#hasContent">
+    <rdfs:domain rdf:resource="#Module"/>
+    <rdfs:range rdf:resource="#Content"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#hasAssignment">
+    <rdfs:domain rdf:resource="#Module"/>
+    <rdfs:range rdf:resource="#Assignment"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="#hasDueDate">
+    <rdfs:domain rdf:resource="#Assignment"/>
+    <rdfs:range rdf:resource="#DueDate"/>
+  </owl:ObjectProperty>
+
+</rdf:RDF>

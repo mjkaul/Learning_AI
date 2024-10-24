@@ -1,0 +1,118 @@
+@prefix : <http://www.university.edu/ontologies/course#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology Declaration
+<http://www.university.edu/ontologies/course> rdf:type owl:Ontology .
+
+# Classes
+:Course rdf:type owl:Class .
+:Module rdf:type owl:Class .
+:LearningObjective rdf:type owl:Class .
+:KeyTerm rdf:type owl:Class .
+:LearningContent rdf:type owl:Class .
+:Assignment rdf:type owl:Class .
+:DueDate rdf:type owl:Class .
+
+# Object Properties
+:hasModule rdf:type owl:ObjectProperty ;
+    rdfs:domain :Course ;
+    rdfs:range :Module .
+
+:hasLearningObjective rdf:type owl:ObjectProperty ;
+    rdfs:domain :Course, :Module ;
+    rdfs:range :LearningObjective .
+
+:hasKeyTerm rdf:type owl:ObjectProperty ;
+    rdfs:domain :Module ;
+    rdfs:range :KeyTerm .
+
+:hasLearningContent rdf:type owl:ObjectProperty ;
+    rdfs:domain :Module ;
+    rdfs:range :LearningContent .
+
+:hasAssignment rdf:type owl:ObjectProperty ;
+    rdfs:domain :Module ;
+    rdfs:range :Assignment .
+
+:hasDueDate rdf:type owl:ObjectProperty ;
+    rdfs:domain :Assignment ;
+    rdfs:range :DueDate .
+
+# Data Properties
+:courseCode rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Course ;
+    rdfs:range xsd:string .
+
+:courseTitle rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Course ;
+    rdfs:range xsd:string .
+
+:moduleTitle rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Module ;
+    rdfs:range xsd:string .
+
+:moduleOrder rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Module ;
+    rdfs:range xsd:integer .
+
+:objectiveDescription rdf:type owl:DatatypeProperty ;
+    rdfs:domain :LearningObjective ;
+    rdfs:range xsd:string .
+
+:termName rdf:type owl:DatatypeProperty ;
+    rdfs:domain :KeyTerm ;
+    rdfs:range xsd:string .
+
+:termDefinition rdf:type owl:DatatypeProperty ;
+    rdfs:domain :KeyTerm ;
+    rdfs:range xsd:string .
+
+:contentTitle rdf:type owl:DatatypeProperty ;
+    rdfs:domain :LearningContent ;
+    rdfs:range xsd:string .
+
+:contentType rdf:type owl:DatatypeProperty ;
+    rdfs:domain :LearningContent ;
+    rdfs:range xsd:string .
+
+:contentURL rdf:type owl:DatatypeProperty ;
+    rdfs:domain :LearningContent ;
+    rdfs:range xsd:anyURI .
+
+:assignmentTitle rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Assignment ;
+    rdfs:range xsd:string .
+
+:assignmentDescription rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Assignment ;
+    rdfs:range xsd:string .
+
+:dueDateTime rdf:type owl:DatatypeProperty ;
+    rdfs:domain :DueDate ;
+    rdfs:range xsd:dateTime .
+
+# Example Individual (for demonstration)
+:Course101 rdf:type :Course ;
+    :courseCode "COMP101" ;
+    :courseTitle "Introduction to Computing" ;
+    :hasModule :Module1 ;
+    :hasLearningObjective :Objective1 .
+
+:Module1 rdf:type :Module ;
+    :moduleTitle "Fundamentals of Programming" ;
+    :moduleOrder 1 ;
+    :hasLearningObjective :Objective2 ;
+    :hasKeyTerm :Term1 ;
+    :hasLearningContent :Content1 ;
+    :hasAssignment :Assignment1 .
+
+:Assignment1 rdf:type :Assignment ;
+    :assignmentTitle "Programming Exercise 1" ;
+    :assignmentDescription "Create a simple calculator program" ;
+    :hasDueDate :DueDate1 .
+
+:DueDate1 rdf:type :DueDate ;
+    :dueDateTime "2024-11-15T23:59:59"^^xsd:dateTime .
