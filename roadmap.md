@@ -30,11 +30,13 @@ In this course, we'll explore the different ways to use AI to assist learning. *
 
 ## [Learning AI 101: Build your first chatbot](/Projects/101_building_ai_chatbots/101.1_intro.md)
 
-1. Deploy a standard open-source LLM, such as one from HuggingFace or Llama 3.2. 
-2. *[in progress]* [Train & deploy an LLM.](/simpleLLM.md) Then test it and find its weaknesses. This section is long and should be subdivided.
-3. Train your first RAG-based LLM & deploy it; then find its weaknesses. 
-4. Write an essay about what you learned in this unit.
-5. Assess where you're at and where you're heading. What are your weak spots so far? Work on those. What are you enjoying most? Keep pursuing that.
+0. [Read the intro.](/Projects/101_building_ai_chatbots/101.1_intro.md)
+1. [Learn the basics.](/Projects/101_building_ai_chatbots/101.2_learnthebasics.md)
+2. Deploy a standard open-source LLM, such as one from HuggingFace or Llama 3.2. 
+3. *[in progress]* [Train & deploy an LLM.](/Projects/101_building_ai_chatbots/simpleLLM.md) Then test it and find its weaknesses. This section is long and should be subdivided.
+4. Train your first RAG-based LLM & deploy it; then find its weaknesses. 
+5. Write an essay about what you learned in this unit.
+6. Assess where you're at and where you're heading. What are your weak spots so far? Work on those. What are you enjoying most? Keep pursuing that.
 
 ## Learning KG 101: Developing knowledge graphs
 
