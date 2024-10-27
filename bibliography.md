@@ -81,6 +81,7 @@ I'm particularly interested in how ontologies and knowledge graphs can be used i
 
 A subfield of the KG+AI field: using KGs to help you build more-reliable AI.
 
+- Panagiotis Alexopoulos, ["Knowledge Graphs & Large Language Models Bootcamp"](https://learning.oreilly.com/live-events/knowledge-graphs-large-language-models-bootcamp/0636920091408/0642572007334/) - This six-hour O'Reilly course is an excellent intro to knowledge graphs and how to apply them to AI applications.
 - Michael Iantosca, Helmut Nagy, and William Sandri, ["Document Object Model Graph RAG: A semantic, content-first, and knowledge-management architecture for neuro-symbolic RAG"](https://medium.com/@nc_mike/document-object-model-graph-rag-af8ae452b0b6) / [pdf version](https://img1.wsimg.com/blobby/go/8d83b4d9-fe3b-41c3-ba74-a645effc4bf2/downloads/The%20DOM%20GraphRAG%20Project.pdf?ver=1726416712048) - A clear overview of the limitations of stochastic LLMs and even RAG models, along with a clear articulation of an alternate, trustworthy model.
 - Philip Rathle, ["The GraphRAG Manifesto: Adding Knowledge to GenAI""](https://neo4j.com/blog/graphrag-manifesto/)
 - Ashleigh Faith, Jesús Barrasa, & Dean Allemang, ["Which is better for AI: Property Graph or Triple Store?"](https://www.youtube.com/watch?v=0sL14JKdMbE)

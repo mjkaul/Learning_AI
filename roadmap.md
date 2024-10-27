@@ -38,7 +38,7 @@ In this course, we'll explore the different ways to use AI to assist learning. *
 5. Write an essay about what you learned in this unit.
 6. Assess where you're at and where you're heading. What are your weak spots so far? Work on those. What are you enjoying most? Keep pursuing that.
 
-## Learning KG 101: Developing knowledge graphs
+## Learning AI 102: Developing knowledge graphs
 
 1. Learn taxonomy
 2. Learn ontology
@@ -55,7 +55,11 @@ In this course, we'll explore the different ways to use AI to assist learning. *
 5. You got it: write the essay.
 6. Assess where you're at and where you're heading. What are your weak spots so far? Work on those. What are you enjoying most? Keep pursuing that.
 
-## Learning AI Graduate Seminar / Dissertation
+## Learning KG+AI 202: GraphRAG Patterns
+
+This course will explore many different design patterns for graph RAG applications, considering the advantages and disadvantages of each.
+
+## Learning AI 301: Graduate Seminar / Dissertation
 
 OK, when you make it this far—(let's be honest, when *I* make it this far, too)—you're going to be very good at building AI and using it for all kinds of different purposes that will help you reach your goals and fulfill your potential. I think the next step is to go do whatever it is that led you here in the first place.
 
