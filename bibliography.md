@@ -75,7 +75,7 @@ I'm particularly interested in how ontologies and knowledge graphs can be used i
 - Ciotti, Tomasi, Peroni, Vitali, ["An Ontology for the TEI (Simple): One Step Beyond"](https://tei-c.org/Vault/MembersMeetings/2015/wp-content/uploads/2015/06/An-ontology-for-the-TEI-Simple.pdf)
 - [TEI by Example](https://www.teibyexample.org/exist/examples/)
 - [Folger Digital Texts Archive](https://www.folgerdigitaltexts.org/download/teisimple.html) - Most of Shakespeare, in TEI Simple format.
-- [TEI Publisher](https://teipublisher.com/exist/apps/tei-publisher-home/index.html)
+- [TEI Publisher](https://teipublisher.com/exist/apps/tei-publisher-home/index.html) - A great open-source publishing tool for TEI-formatted ebooks
 
 ### Using KGs for AI
 
@@ -89,6 +89,7 @@ A subfield of the KG+AI field: using KGs to help you build more-reliable AI.
 - [Unlocking LLM Power with Organizational KG Ontologies](https://superlinked.com/vectorhub/articles/kg-ontologies)
 - Ben Lorica, ["Charting the Graphical Roadmap to Smarter AI""](https://gradientflow.substack.com/p/charting-the-graphical-roadmap-to)
 - Ben Lorica, ["GraphRAG: Design Patterns, Challenges, Recommendations"](https://gradientflow.com/graphrag-design-patterns-challenges-recommendations/) - The most comprehensive overview of different possible architectures for your KG+AI project.
+- TUTORIAL: [Using LangGraph and Graphiti: Building an agent with LangChain’s LangGraph and Graphiti](https://help.getzep.com/graphiti/graphiti/lang-graph-agent)
 
 ### Using AI for Ontologies & KGs ###
 
